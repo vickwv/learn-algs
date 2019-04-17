@@ -37,7 +37,7 @@ public class MaxPQ<Key extends Comparable<Key>> {
      * @param  Max the initial capacity of this priority queue
      */
     public MaxPQ(int Max) {
-        pq = (Key[]) new Object[Max + 1];
+        pq = (Key[]) new Comparable[Max + 1];
         N = 0;
     }
 
