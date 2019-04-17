@@ -2,96 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8e403eb-7271-4978-afcc-8883b2947e3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Bag$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Bag$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Bag$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Bag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Queue$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Queue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/ResizingArrayStack$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/ResizingArrayStack$ReverseArrayIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/ResizingArrayStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Stack$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Stack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Algorithms/ThreeSumFixOverflow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Deque$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Deque$DequeIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Deque$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Deque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/RandomBag$RandomBagIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/RandomBag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/ResizingArrayDeque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Steque$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Steque$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Steque$StequeIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Steque.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/DoubleNode$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/DoubleNode$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/DoubleNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1319$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1319$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1319.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1320$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1320$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1320$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1320.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1321$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1321$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1321$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1321.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1324$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1324$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1324$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1324.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1325$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1325$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1325$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1325.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1326$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1326$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1326$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1326.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1327$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1327$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1327$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1327.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1329$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1329$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1329$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1329.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1330$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1330$ListIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1330$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1330.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/CopyStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/DoublingStackOfStrings$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/DoublingStackOfStrings$DoublingStackIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/DoublingStackOfStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/EvaluatePostfix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex131$FixedCapcityStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex131.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex1310.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex1315.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex132.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex135.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex139.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Pareantheses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/PeekStack$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/PeekStack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/PeekStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/ResizingArrayQueueOfStrings$ArrayIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/ResizingArrayQueueOfStrings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/MaxPQ$HeapIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/MaxPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/Merge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/SelectSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/ShellSort.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -225,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MaxPQ">
     <configuration name="Ex1315" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter1.exercises.QueueStackBag.Ex1315" />
       <module name="algs4" />
@@ -239,8 +151,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.MaxPQ" />
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxPQ" />
         <item itemvalue="Application.Ex1315" />
       </list>
     </recent_temporary>
@@ -255,12 +181,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555496483768</updated>
-      <workItem from="1555496486378" duration="704000" />
+      <workItem from="1555496486378" duration="774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="704000" />
+    <option name="totallyTimeSpent" value="774000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,17 +203,17 @@
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3318919" />
+      <window_info anchor="bottom" id="Messages" weight="0.32864866" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3318919" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,16 +327,6 @@
     <entry file="file://$PROJECT_DIR$/src/chapter2/Merge.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/MaxPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -418,10 +334,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/MaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
