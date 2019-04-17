@@ -1,7 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8e403eb-7271-4978-afcc-8883b2947e3a" name="Default Changelist" comment="" />
+    <list default="true" id="c8e403eb-7271-4978-afcc-8883b2947e3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Bag$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Bag$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Bag$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Bag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Queue$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Queue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/ResizingArrayStack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/ResizingArrayStack$ReverseArrayIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/ResizingArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Stack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Stack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/example/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Algorithms/ThreeSumFixOverflow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Deque$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Deque$DequeIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Deque$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Deque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/RandomBag$RandomBagIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/RandomBag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/ResizingArrayDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Steque$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Steque$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Steque$StequeIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/Improve/Steque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/DoubleNode$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/DoubleNode$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/DoubleNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1319$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1319$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1319.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1320$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1320$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1320$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1320.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1321$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1321$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1321$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1321.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1324$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1324$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1324$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1324.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1325$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1325$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1325$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1325.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1326$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1326$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1326$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1326.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1327$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1327$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1327$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1327.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1329$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1329$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1329$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1329.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1330$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1330$ListIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1330$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/LinkedList/Ex1330.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/CopyStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/DoublingStackOfStrings$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/DoublingStackOfStrings$DoublingStackIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/DoublingStackOfStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/EvaluatePostfix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex131$FixedCapcityStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex131.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex1310.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex1315.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex132.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex135.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Ex139.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/Pareantheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/PeekStack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/PeekStack$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/PeekStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/ResizingArrayQueueOfStrings$ArrayIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/QueueStackBag/ResizingArrayQueueOfStrings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/MaxPQ$HeapIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/MaxPQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/Merge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/SelectSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter2/ShellSort.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,35 +118,33 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter2/ShellSort.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter2/MaxPQ.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter2/Merge.java">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex1315.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-274">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/chapter1/exercises/LinkedList/Ex1319.java" />
         <option value="$PROJECT_DIR$/src/chapter2/Merge.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -63,12 +152,23 @@
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algs4" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algs4" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,40 +176,25 @@
               <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
               <item name="algs4" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
-              <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="QueueStackBag" type="462c0819:PsiDirectoryNode" />
+              <item name="algs4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="algs4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -170,12 +255,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555496483768</updated>
-      <workItem from="1555496486378" duration="269000" />
+      <workItem from="1555496486378" duration="704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269000" />
+    <option name="totallyTimeSpent" value="704000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -183,20 +277,21 @@
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Messages" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3318919" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
@@ -207,6 +302,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex1315.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/chapter1/example/Stack.java">
@@ -263,12 +370,6 @@
     <entry file="file://$PROJECT_DIR$/src/chapter2/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/MaxPQ.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/example/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -290,9 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/Merge.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex1315.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-274">
@@ -300,5 +398,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/Merge.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/MaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algs4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>algs4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
