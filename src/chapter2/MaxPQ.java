@@ -74,7 +74,7 @@ public class MaxPQ<Key extends Comparable<Key>> {
     // helper function to double the size of the heap array
     private void resize(int capacity) {
         assert capacity > N;
-        Key[] temp = (Key[]) new Object[capacity];
+        Key[] temp = (Key[]) new Comparable[capacity];
         for (int i = 1; i <= N; i++) {
             temp[i] = pq[i];
         }
