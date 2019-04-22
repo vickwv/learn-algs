@@ -46,6 +46,7 @@ public class ResizingOrderArrayPQ<Key extends Comparable<Key>> {
         if (this.isEmpty()) {
             pq[N++] = key;
         } else {
+            pq[N++] = key;
             // 选择排序，最大元素在数组首个元素
             for (int i = 0; i < N; i++) {
                 int min = i;
