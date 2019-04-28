@@ -163,7 +163,7 @@ public class MaxPQ<Key extends Comparable<Key>> {
         return isMaxHeap(1);
     }
 
-    // is subtree of pq[1..N] rooted at k a max heap?
+    // 线性时间检测是否为最大堆
     private boolean isMaxHeap(int k) {
         if (k > N) return true;
         int left = 2*k;
