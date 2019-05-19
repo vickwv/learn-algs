@@ -13,7 +13,7 @@ public class SelectSort {
 
     public static void sort(Comparable[] a) {
         int n = a.length;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n-1; i++) {
             int min = i;
             for (int j = i+1; j < n; j++) {
                 if (less(a[j], a[min])) min = j;
@@ -82,8 +82,8 @@ public class SelectSort {
         if (args.length == 0) {
             StdOut.println("Please input params");
         }
-        String[] a = StdIn.readAllStrings();
-        SelectSort.sort(a);
-        show(a);
+        //String[] a = StdIn.readAllStrings();
+        SelectSort.sort(args);
+        show(args);
     }
 }
