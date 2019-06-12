@@ -23,6 +23,28 @@ public class Quick
         sort(a, j+1, hi);
     }
 
+    /**
+     * 三向分切快排
+     * 将数组切分为三部分，分别对应小于，等于，大于切分元素的数组元素
+     * @param a
+     * @param lo
+     * @param hi
+     */
+    private static void sortByThreeWay(Comparable[] a, int lo, int hi)
+    {
+        if (hi <= lo) return;
+        int lt = lo, i = lo + 1, gt = hi; // lt < v的指针, i = v的指针, gt > v的指针
+        Comparable v = a[lo];
+        while (i <= gt) {
+            int cmp = a[i].compareTo(v);
+            if (cmp < 0) exch(a, lt++, i++); // 小于 v, 将lt和i交换，lt和i加1
+            else if (cmp > 0) exch(a, gt++, i); // 大于v, 将gt和i交换, gt加1
+            else i++;// 等于ｖ,将i加１
+        }
+        sort(a, lo, lt-1);
+        sort(a, gt + 1, hi);
+    }
+
     // 对于小数组，快速排序比插入排序慢
     private static void sortByInsert(Comparable[] a, int lo, int hi)
     {
