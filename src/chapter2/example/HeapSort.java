@@ -98,6 +98,8 @@ public class HeapSort {
     public static void main(String[] args) {
         String[] a = args;
         HeapSort.sortByGreater(a);
+        a[0] = "A";
+        HeapSort.sink(a, 1, 11);
         show(a);
     }
 }
