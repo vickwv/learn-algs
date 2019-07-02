@@ -1,7 +1,7 @@
 package chapter3.example;
 
 /**
- * 顺序查询(基于无序链表)
+ * 顺序查询(基于无序链表) 的符号表
  * @param <Key>
  * @param <Value>
  */
