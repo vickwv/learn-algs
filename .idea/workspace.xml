@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter3/example/FrequencyCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/example/SequentialSearchST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,16 +15,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter3/example/FrequencyCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="233">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter2/example/Multiway.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter3/example/SequentialSearchST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="631">
+              <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -77,27 +82,20 @@
         <option value="$PROJECT_DIR$/src/chapter2/example/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/chapter2/example/MaxPQ.java" />
         <option value="$PROJECT_DIR$/src/chapter3/example/FrequencyCounter.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/example/SequentialSearchST.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
-    <option name="y" value="207" />
-    <option name="width" value="1268" />
-    <option name="height" value="714" />
+    <option name="x" value="-6" />
+    <option name="width" value="1932" />
+    <option name="height" value="1086" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,13 +112,14 @@
               <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
               <item name="algs4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
               <item name="algs4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
@@ -131,6 +130,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,7 +148,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -276,6 +276,7 @@
       <workItem from="1561084736768" duration="1540000" />
       <workItem from="1561098745355" duration="1463000" />
       <workItem from="1561107181461" duration="2528000" />
+      <workItem from="1562033466697" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -323,12 +324,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72497000" />
+    <option name="totallyTimeSpent" value="74191000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-6" y="0" width="1932" height="1086" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16452992" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16613248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -338,7 +340,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946582" weight="0.3272921" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3795309" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3795309" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -364,9 +366,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="使用优先队列的多向归并" />
     <MESSAGE value="快速排序" />
@@ -378,12 +377,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/chapter2/example/HeapSort.java</url>
-          <line>98</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/chapter2/example/Quick.java</url>
           <line>98</line>
@@ -398,27 +391,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/chapter2/example/HeapSort.java</url>
-          <line>20</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/chapter2/example/HeapSort.java</url>
-          <line>24</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/chapter2/example/HeapSort.java</url>
-          <line>23</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/chapter2/example/HeapSort.java</url>
-          <line>101</line>
-          <properties />
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/chapter3/example/FrequencyCounter.java</url>
@@ -506,9 +493,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/example/Quick3way.java" />
-    <entry file="file://$PROJECT_DIR$/src/chapter2/排序.km">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/example/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -554,24 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/util/TreeMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49786">
-          <caret line="2543" selection-start-line="2543" selection-end-line="2543" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/jar/algs4.jar!/edu/princeton/cs/algs4/ST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="229" column="5" selection-start-line="229" selection-start-column="5" selection-end-line="229" selection-end-column="5" />
-          <folding>
-            <element signature="e#2642#2643#0" expanded="true" />
-            <element signature="e#2688#2689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/example/MaxPQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -586,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/example/Multiway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/jar/algs4.jar!/edu/princeton/cs/algs4/In.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -600,13 +559,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/example/Multiway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/排序.km">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/util/TreeMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="295" column="32" lean-forward="true" selection-start-line="295" selection-start-column="32" selection-end-line="295" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jar/algs4.jar!/edu/princeton/cs/algs4/ST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+          <folding>
+            <element signature="e#2642#2643#0" expanded="true" />
+            <element signature="e#2688#2689#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/example/FrequencyCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="233">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/example/SequentialSearchST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
         </state>
       </provider>
     </entry>
