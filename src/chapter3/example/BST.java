@@ -1,5 +1,6 @@
 package chapter3.example;
 
+import edu.princeton.cs.algs4.Queue;
 import edu.princeton.cs.algs4.StdOut;
 
 public class BST<Key extends Comparable<Key>, Value> {
@@ -107,6 +108,20 @@ public class BST<Key extends Comparable<Key>, Value> {
             return x;
         } else {
             return min(x.left);
+        }
+    }
+
+    public Key max()
+    {
+        return max(root).key;
+    }
+
+    private Node max(Node x)
+    {
+        if (x.right == null) {
+            return x;
+        } else {
+            return max(x.right);
         }
     }
 
@@ -252,12 +267,34 @@ public class BST<Key extends Comparable<Key>, Value> {
         print(x.right);
     }
 
+    public Iterable<Key> keys()
+    {
+        return keys(min(), max());
+    }
+
+    public Iterable<Key> keys(Key lo, Key hi)
+    {
+        Queue<Key> queue = new Queue<>();
+        keys(root, queue, lo, hi);
+        return queue;
+    }
+
+    private void keys(Node x, Queue<Key> queue, Key lo, Key hi)
+    {
+        if (x == null) return;
+        int cmplo = lo.compareTo(x.key);
+        int cmphi = hi.compareTo(x.key);
+        if (cmplo < 0) keys(x.left, queue, lo, hi);
+        if (cmplo <= 0 && cmphi > 0) queue.enqueue(x.key);
+        if (cmphi > 0) keys(x.right, queue, lo, hi);
+    }
+
     public static void main(String[] args)
     {
         BST bst = new BST();
         for (int i = 0; i < args.length; i++) {
             bst.put(args[i], i);
         }
-        bst.print(bst.root);
+        bst.print(bst.root  );
     }
 }
