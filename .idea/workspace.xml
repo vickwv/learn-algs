@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter3/example/RedBackBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter3/example/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter3/example/BST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter3/example/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="261" column="5" lean-forward="true" selection-start-line="261" selection-start-column="5" selection-end-line="261" selection-end-column="5" />
+            <state relative-caret-position="440">
+              <caret line="21" selection-start-line="21" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter3/example/RedBackBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -76,6 +85,7 @@
         <option value="$PROJECT_DIR$/src/chapter3/example/BinarySearchST.java" />
         <option value="$PROJECT_DIR$/src/chapter3/example/SequentialSearchST.java" />
         <option value="$PROJECT_DIR$/src/chapter3/example/BST.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/example/RedBackBST.java" />
       </list>
     </option>
   </component>
@@ -107,6 +117,12 @@
               <item name="algs4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algs4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="recurision" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
@@ -268,7 +284,8 @@
       <workItem from="1563108707746" duration="4713000" />
       <workItem from="1563199381857" duration="1159000" />
       <workItem from="1563369445690" duration="162000" />
-      <workItem from="1563701896442" duration="706000" />
+      <workItem from="1563701896442" duration="2945000" />
+      <workItem from="1563804368626" duration="2263000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -319,17 +336,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562038714036</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="BST">
+      <created>1563704200752</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563704200752</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92849000" />
+    <option name="totallyTimeSpent" value="97351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14292878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1444333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -412,7 +436,8 @@
     <MESSAGE value="快排" />
     <MESSAGE value="堆排序" />
     <MESSAGE value="顺序查询(基于无序链表)" />
-    <option name="LAST_COMMIT_MESSAGE" value="顺序查询(基于无序链表)" />
+    <MESSAGE value="BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="BST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -467,13 +492,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/chapter3/example/BST.java</url>
-          <line>296</line>
+          <line>294</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/chapter3/example/BST.java</url>
-          <line>297</line>
+          <line>295</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
@@ -630,20 +655,6 @@
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/lang/Comparable.class" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/recurision/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/example/BinarySearchST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-757">
@@ -672,13 +683,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/jdk/java-se-8u40-ri/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="28" selection-end-line="95" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/example/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="261" column="5" lean-forward="true" selection-start-line="261" selection-start-column="5" selection-end-line="261" selection-end-column="5" />
+        <state relative-caret-position="440">
+          <caret line="21" selection-start-line="21" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/recurision/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/example/RedBackBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>
