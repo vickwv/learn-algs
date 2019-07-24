@@ -94,7 +94,7 @@ public class RedBackBST<Key extends Comparable<Key>, Value> {
 
     public void put(Key key, Value val)
     {
-        put(root, key ,val);
+        root = put(root, key ,val);
         root.color = BLACK;
     }
 
@@ -123,5 +123,12 @@ public class RedBackBST<Key extends Comparable<Key>, Value> {
 
         h.N = size(h.left) + size(h.right) + 1;
         return h;
+    }
+
+    public static void main(String[] args) {
+        RedBackBST<String, Integer> backBST = new RedBackBST<>();
+        for (int i = 0; i < args.length; i++) {
+            backBST.put(args[i], i);
+        }
     }
 }
