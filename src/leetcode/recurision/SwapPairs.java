@@ -33,7 +33,7 @@ public class SwapPairs {
         return p2;
     }
 
-    public ListNode swapPairs(ListNode head) {
+    public ListNode swapPairs2(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
