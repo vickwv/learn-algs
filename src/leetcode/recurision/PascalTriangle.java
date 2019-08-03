@@ -65,7 +65,7 @@ public class PascalTriangle {
 
     public static void main(String[] args) {
         PascalTriangle pascalTriangle = new PascalTriangle();
-        List<List<Integer>> list = pascalTriangle.generateRecurision(5);
+        List<List<Integer>> list = pascalTriangle.generate(5);
         for (int i = 0; i < list.size(); i++) {
             StdOut.println(list.get(i).toString());
         }
