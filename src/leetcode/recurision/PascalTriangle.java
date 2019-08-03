@@ -42,6 +42,7 @@ public class PascalTriangle {
         if (numRows == 0) {
             return triangle;
         }
+
         generateRecurision(numRows - 1);
         List<Integer> list = new ArrayList<>();
         if (numRows == 1) {
@@ -54,7 +55,7 @@ public class PascalTriangle {
                 if (i == 1 || i == numRows) {
                     list.add(1);
                 } else {
-                    list.add(triangle.get(numRows-1).get(i-1), triangle.get(numRows-1).get(i));
+                    list.add(triangle.get(numRows-2).get(i-2) + triangle.get(numRows-2).get(i-1));
                 }
             }
         }
