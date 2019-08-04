@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/recurision/ReverseSingleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algs4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algs4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/recurision/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/recurision/PascalTriangle.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,15 +20,33 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/recurision/PascalTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="999">
-              <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="24" />
+            <state relative-caret-position="377">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/recurision/ReverseSingleLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
-                <element signature="e#300#315#0" expanded="true" />
-                <element signature="e#497#512#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,6 +75,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/leetcode/recurision/PascalTriangle.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/recurision/PascalTriangleTwo.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/recurision/ReverseSingleLinkedList.java" />
       </list>
     </option>
   </component>
@@ -70,7 +88,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="405" />
-    <option name="y" value="63" />
+    <option name="y" value="62" />
     <option name="width" value="1750" />
     <option name="height" value="1250" />
   </component>
@@ -83,6 +101,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,8 +125,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,6 +146,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.recurision" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="leetcode.recurision" />
     </key>
@@ -144,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PascalTriangle">
+  <component name="RunManager" selected="Application.SwapPairs">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter3.example.BST" />
       <module name="algs4" />
@@ -159,13 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrequencyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.example.FrequencyCounter" />
+    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.recurision.PascalTriangle" />
       <module name="algs4" />
-      <option name="PROGRAM_PARAMETERS" value="3 $USER_HOME$/Downloads/leipzig100K.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.example.*" />
+          <option name="PATTERN" value="leetcode.recurision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,8 +193,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.recurision.PascalTriangle" />
+    <configuration name="PascalTriangleTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.recurision.PascalTriangleTwo" />
       <module name="algs4" />
       <extension name="coverage">
         <pattern>
@@ -214,19 +234,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FrequencyCounter" />
       <item itemvalue="Application.BST" />
       <item itemvalue="Application.RedBackBST" />
       <item itemvalue="Application.SwapPairs" />
       <item itemvalue="Application.PascalTriangle" />
+      <item itemvalue="Application.PascalTriangleTwo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.SwapPairs" />
+        <item itemvalue="Application.PascalTriangleTwo" />
+        <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.RedBackBST" />
         <item itemvalue="Application.BST" />
-        <item itemvalue="Application.FrequencyCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +289,8 @@
       <workItem from="1564494463234" duration="124000" />
       <workItem from="1564578630207" duration="6225000" />
       <workItem from="1564831760906" duration="600000" />
-      <workItem from="1564832637067" duration="901000" />
+      <workItem from="1564832637067" duration="3296000" />
+      <workItem from="1564877446998" duration="3613000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -362,38 +383,52 @@
       <option name="project" value="LOCAL" />
       <updated>1564584994034</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="杨辉三角">
+      <created>1564833621004</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564833621004</updated>
+    </task>
+    <task id="LOCAL-00015" summary="杨辉三角2">
+      <created>1564835669611</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564835669611</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="901000" />
+    <option name="totallyTimeSpent" value="6909000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1126" extended-state="7" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17985971" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18163672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295688" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295688" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295688" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +468,8 @@
     <MESSAGE value="散列表" />
     <MESSAGE value="leetcode 两两交换相邻的节点" />
     <MESSAGE value="杨辉三角" />
-    <option name="LAST_COMMIT_MESSAGE" value="杨辉三角" />
+    <MESSAGE value="杨辉三角2" />
+    <option name="LAST_COMMIT_MESSAGE" value="杨辉三角2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -674,21 +710,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/PascalTriangle.java</url>
-          <line>71</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/PascalTriangle.java</url>
-          <line>46</line>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/PascalTriangle.java</url>
-          <line>43</line>
+          <line>42</line>
           <properties />
           <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/recurision/PascalTriangleTwo.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java</url>
@@ -702,13 +744,48 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/jar/algs4.jar!/edu/princeton/cs/algs4/StdOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/recurision/PascalTriangleTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/recurision/PascalTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="24" />
+        <state relative-caret-position="377">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/recurision/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/recurision/ReverseSingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <element signature="e#300#315#0" expanded="true" />
-            <element signature="e#497#512#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
           </folding>
         </state>
       </provider>
