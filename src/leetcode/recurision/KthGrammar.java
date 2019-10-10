@@ -1,7 +1,5 @@
 package leetcode.recurision;
 
-import edu.princeton.cs.algs4.StdOut;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,14 +10,14 @@ import java.util.List;
  * @url https://leetcode-cn.com/problems/k-th-symbol-in-grammar/
  */
 public class KthGrammar {
-    protected List<List<Integer>> db  = new ArrayList<>();
+    protected List<Integer> db = new ArrayList<>();
 
     protected List<Integer> generate(int N)
     {
         if (N == 1) {
             List<Integer> defaultRow = new ArrayList<>();
             defaultRow.add(0);
-            db.add(0, defaultRow);
+            db = defaultRow;
             return defaultRow;
         } else {
             List<Integer> lastRow = generate(N-1);
@@ -34,20 +32,23 @@ public class KthGrammar {
                     tmp.add(index, 1);
                 }
             }
-            db.add(N-1, tmp);
+            db = tmp;
             return tmp;
         }
     }
 
     public int kthGrammar(int N, int K)
     {
+        if (N < 0 || K < 0 || K > Math.pow(2, N-1)) {
+            return 0;
+        }
         this.generate(N);
-        return this.db.get(N-1).get(K-1);
+        return this.db.get(K-1);
     }
 
     public static void main(String[] args)
     {
         KthGrammar test = new KthGrammar();
-        System.out.println(test.kthGrammar(10, 10));
+        System.out.println(test.kthGrammar(10, 1));
     }
 }
