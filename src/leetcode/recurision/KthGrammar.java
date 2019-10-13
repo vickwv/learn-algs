@@ -46,9 +46,42 @@ public class KthGrammar {
         return this.db.get(K-1);
     }
 
+
+    /**
+     * Leetcode 暴力法
+     * 处理每一行，但只保存最新一行
+     *
+     * 1. 利用了移位运算知识点，针对无符号整数，移位左移，移动一位，相当于乘2，移动右移，移动一位，则相当于除2
+     * 2.
+     * @param N int
+     * @param K int
+     * @return int
+     */
+    public int kthGrammarViolence(int N, int K)
+    {
+        int[] lastrow = new int[1 << N];
+        for (int i = 1; i < N; ++i) {
+            for (int j = (1 << (i-1)) - 1; j >= 0; --j) {
+                lastrow[2*j] = lastrow[j];
+                lastrow[2*j+1] = 1 - lastrow[j];
+            }
+        }
+        return lastrow[K-1];
+    }
+
+    public int kthGrammarF(int N, int K)
+    {
+        if (N == 1) return 0;
+        if (K % 2 == 0) {
+           return kthGrammarF(N-1, K/2) == 0 ? 1 : 0;
+        } else {
+            return kthGrammarF(N-1, (K+1)/2) == 0 ? 0 : 1;
+        }
+    }
+
     public static void main(String[] args)
     {
         KthGrammar test = new KthGrammar();
-        System.out.println(test.kthGrammar(10, 1));
+        System.out.println(7/2);
     }
 }
