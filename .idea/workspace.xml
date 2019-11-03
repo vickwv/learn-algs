@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/array/PivotIndexOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/PivotIndexOfArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,12 +35,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1298" />
-    <option name="height" value="1408" />
   </component>
   <component name="ProjectId" id="1OjcUPkLrygYb9gmTYpV5Ils5CF" />
   <component name="ProjectLevelVcsManager">
@@ -348,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570632296209</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="寻找数组的中心索引解答">
+      <created>1572743226899</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1572743226899</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +384,8 @@
     <MESSAGE value="杨辉三角2" />
     <MESSAGE value="反转单链表" />
     <MESSAGE value="第K个语法符号" />
-    <option name="LAST_COMMIT_MESSAGE" value="第K个语法符号" />
+    <MESSAGE value="寻找数组的中心索引解答" />
+    <option name="LAST_COMMIT_MESSAGE" value="寻找数组的中心索引解答" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
