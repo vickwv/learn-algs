@@ -3,8 +3,13 @@ package leetcode.array;
 import edu.princeton.cs.algs4.StdOut;
 
 /**
- * 寻找数据的中心索引
- * @url https://leetcode-cn.com/explore/learn/card/array-and-string/198/introduction-to-array/770/
+ * 寻找数组的中心索引
+ * 来源： https://leetcode-cn.com/explore/learn/card/array-and-string/198/introduction-to-array/770/
+ * 方法：前缀和
+ * 算法：
+ *
+ * S 是数组的和，当索引 i 是中心索引时，位于 i 左边数组元素的和 leftsum 满足 S - nums[i] - leftsum。
+ * 我们只需要判断当前索引 i 是否满足 leftsum==S-nums[i]-leftsum 并动态计算 leftsum 的值
  */
 public class PivotIndexOfArray {
     public int pivotIndex(int[] nums) {
