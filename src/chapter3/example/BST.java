@@ -250,7 +250,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         else {
             if (x.right == null) return x.left;
             if (x.left == null) return  x.right;
-            Node t = x;
+            Node t = x; // 将指向即将被删除的结点的链接保存为t
             x = min(t.right); // 从要删除的结点右子树找出最小的结点，取代要删除的结点
             x.right = deleteMin(x.right); // 新的x的右子树要去除小于或等于它的结点
             x.left = t.left; // 新的x的左子树依然是原来的左子树

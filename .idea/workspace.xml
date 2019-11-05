@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/DominantIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,6 +220,7 @@
       <workItem from="1568022790420" duration="3469000" />
       <workItem from="1570801291492" duration="2545000" />
       <workItem from="1570963181842" duration="4169000" />
+      <workItem from="1572958573946" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -357,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572743513668</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=" 至少是其他数字两倍的最大数">
+      <created>1572958621363</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1572958621363</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +397,8 @@
     <MESSAGE value="反转单链表" />
     <MESSAGE value="第K个语法符号" />
     <MESSAGE value="寻找数组的中心索引解答" />
-    <option name="LAST_COMMIT_MESSAGE" value="寻找数组的中心索引解答" />
+    <MESSAGE value=" 至少是其他数字两倍的最大数" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 至少是其他数字两倍的最大数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
