@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/DominantIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/PivotIndexOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/PivotIndexOfArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PivotIndexOfArray">
+  <component name="RunManager" selected="Application.DominantIndex">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.recurision.ClimbStairs" />
       <module name="algs4" />
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.recurision.Fib" />
+    <configuration name="DominantIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.DominantIndex" />
       <module name="algs4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.recurision.*" />
+          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Fib" />
       <item itemvalue="Application.ClimbStairs" />
       <item itemvalue="Application.Pow" />
       <item itemvalue="Application.KthGrammar" />
       <item itemvalue="Application.PivotIndexOfArray" />
+      <item itemvalue="Application.DominantIndex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DominantIndex" />
         <item itemvalue="Application.PivotIndexOfArray" />
         <item itemvalue="Application.KthGrammar" />
         <item itemvalue="Application.Pow" />
         <item itemvalue="Application.ClimbStairs" />
-        <item itemvalue="Application.Fib" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572743226899</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="寻找数组的中心索引解答">
+      <created>1572743513668</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1572743513668</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
