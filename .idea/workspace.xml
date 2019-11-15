@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="" />
+    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,26 +81,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DominantIndex">
+  <component name="RunManager" selected="Application.PlusOne">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.recurision.ClimbStairs" />
       <module name="algs4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.recurision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DominantIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.DominantIndex" />
-      <module name="algs4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,6 +121,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.PlusOne" />
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.recurision.Pow" />
       <module name="algs4" />
@@ -149,11 +152,11 @@
       <item itemvalue="Application.Pow" />
       <item itemvalue="Application.KthGrammar" />
       <item itemvalue="Application.PivotIndexOfArray" />
-      <item itemvalue="Application.DominantIndex" />
+      <item itemvalue="Application.PlusOne" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DominantIndex" />
+        <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.PivotIndexOfArray" />
         <item itemvalue="Application.KthGrammar" />
         <item itemvalue="Application.Pow" />
@@ -220,7 +223,8 @@
       <workItem from="1568022790420" duration="3469000" />
       <workItem from="1570801291492" duration="2545000" />
       <workItem from="1570963181842" duration="4169000" />
-      <workItem from="1572958573946" duration="407000" />
+      <workItem from="1573717065348" duration="2329000" />
+      <workItem from="1573780666725" duration="2137000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -348,21 +352,7 @@
       <option name="project" value="LOCAL" />
       <updated>1572743226899</updated>
     </task>
-    <task id="LOCAL-00019" summary="寻找数组的中心索引解答">
-      <created>1572743513668</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1572743513668</updated>
-    </task>
-    <task id="LOCAL-00020" summary=" 至少是其他数字两倍的最大数">
-      <created>1572958621363</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1572958621363</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,8 +387,7 @@
     <MESSAGE value="反转单链表" />
     <MESSAGE value="第K个语法符号" />
     <MESSAGE value="寻找数组的中心索引解答" />
-    <MESSAGE value=" 至少是其他数字两倍的最大数" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 至少是其他数字两倍的最大数" />
+    <option name="LAST_COMMIT_MESSAGE" value="寻找数组的中心索引解答" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -537,11 +526,6 @@
           <url>file://$PROJECT_DIR$/src/chapter3/example/RedBackBST.java</url>
           <line>124</line>
           <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/chapter3/example/RedBackBST.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/chapter3/example/RedBackBST.java</url>
@@ -742,6 +726,56 @@
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/KthGrammar.java</url>
           <line>65</line>
           <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java</url>
