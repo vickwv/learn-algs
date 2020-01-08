@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="二分搜索树删除">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/FindDiagonalOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/FindDiagonalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/FindDiagonalOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +226,7 @@
       <workItem from="1570963181842" duration="4169000" />
       <workItem from="1573717065348" duration="2329000" />
       <workItem from="1573780666725" duration="2137000" />
-      <workItem from="1578384986944" duration="1676000" />
+      <workItem from="1578384986944" duration="3371000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -355,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572743226899</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="对角线遍历 暴力遍历法">
+      <created>1578390099075</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578390099075</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,17 +396,26 @@
     <MESSAGE value="反转单链表" />
     <MESSAGE value="第K个语法符号" />
     <MESSAGE value="寻找数组的中心索引解答" />
-    <option name="LAST_COMMIT_MESSAGE" value="寻找数组的中心索引解答" />
+    <MESSAGE value="对角线遍历 暴力遍历法" />
+    <option name="LAST_COMMIT_MESSAGE" value="对角线遍历 暴力遍历法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578385018802">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578385018802" />
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578390098511">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578390098511" />
     <state x="526" y="199" key="SettingsEditor" timestamp="1578385054760">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1578385054760" />
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1578390100645">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578390100645" />
     <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1578384987062">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
