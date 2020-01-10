@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="对角线遍历(迭代反转法)">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/SpiralOrder.java" afterDir="false" />
+    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +228,7 @@
       <workItem from="1573780666725" duration="2137000" />
       <workItem from="1578384986944" duration="12301000" />
       <workItem from="1578474479755" duration="2891000" />
-      <workItem from="1578633382049" duration="2070000" />
+      <workItem from="1578633382049" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -370,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578444690543</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="54. 螺旋矩阵">
+      <created>1578648752525</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578648752525</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,17 +414,18 @@
     <MESSAGE value="寻找数组的中心索引解答" />
     <MESSAGE value="对角线遍历 暴力遍历法" />
     <MESSAGE value="对角线遍历(迭代反转法)" />
-    <option name="LAST_COMMIT_MESSAGE" value="对角线遍历(迭代反转法)" />
+    <MESSAGE value="54. 螺旋矩阵" />
+    <option name="LAST_COMMIT_MESSAGE" value="54. 螺旋矩阵" />
   </component>
   <component name="WindowStateProjectService">
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578385018802">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578385018802" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578455619994">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578648751765">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578455619994" />
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578648751765" />
     <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1578634416435">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -454,10 +462,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1578385054760" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1578444692391">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1578648753889">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578444692391" />
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578648753889" />
     <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1578633430905">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
