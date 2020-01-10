@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
+    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="对角线遍历(迭代反转法)">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/SpiralOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/FindDiagonalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/FindDiagonalOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +80,7 @@
       <recent name="leetcode.recurision" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PlusOne">
-    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.recurision.ClimbStairs" />
-      <module name="algs4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.recurision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SpiralOrder">
     <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.recurision.KthGrammar" />
       <module name="algs4" />
@@ -146,20 +133,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.SpiralOrder" />
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ClimbStairs" />
       <item itemvalue="Application.Pow" />
       <item itemvalue="Application.KthGrammar" />
       <item itemvalue="Application.PivotIndexOfArray" />
       <item itemvalue="Application.PlusOne" />
+      <item itemvalue="Application.SpiralOrder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.PivotIndexOfArray" />
         <item itemvalue="Application.KthGrammar" />
         <item itemvalue="Application.Pow" />
-        <item itemvalue="Application.ClimbStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +226,9 @@
       <workItem from="1570963181842" duration="4169000" />
       <workItem from="1573717065348" duration="2329000" />
       <workItem from="1573780666725" duration="2137000" />
-      <workItem from="1578384986944" duration="3371000" />
+      <workItem from="1578384986944" duration="12301000" />
+      <workItem from="1578474479755" duration="2891000" />
+      <workItem from="1578633382049" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -361,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578390099075</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="对角线遍历(迭代反转法)">
+      <created>1578444690543</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578444690543</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,29 +406,62 @@
     <MESSAGE value="第K个语法符号" />
     <MESSAGE value="寻找数组的中心索引解答" />
     <MESSAGE value="对角线遍历 暴力遍历法" />
-    <option name="LAST_COMMIT_MESSAGE" value="对角线遍历 暴力遍历法" />
+    <MESSAGE value="对角线遍历(迭代反转法)" />
+    <option name="LAST_COMMIT_MESSAGE" value="对角线遍历(迭代反转法)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578385018802">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578385018802" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578390098511">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578455619994">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578390098511" />
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578455619994" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1578634416435">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578634416435" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1578634416434">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578634416434" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1578634416434">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578634416434" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1578634416435">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578634416435" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1578467763050">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578467763050" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1578467763050">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578467763050" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1578467763050">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578467763050" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1578467763050">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578467763050" />
     <state x="526" y="199" key="SettingsEditor" timestamp="1578385054760">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1578385054760" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1578390100645">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1578444692391">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578390100645" />
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1578384987062">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578444692391" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1578633430905">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578384987062" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578633430905" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -825,8 +867,21 @@
           </properties>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/SpiralOrder.java</url>
+          <line>53</line>
+          <properties class="leetcode.array.SpiralOrder" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="line-1-i" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>
