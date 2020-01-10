@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="add readme.md">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/AddBinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,20 @@
       <recent name="leetcode.recurision" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpiralOrder">
+  <component name="RunManager" selected="Application.AddBinary">
+    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.AddBinary" />
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.recurision.KthGrammar" />
       <module name="algs4" />
@@ -120,19 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.recurision.Pow" />
-      <module name="algs4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.recurision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpiralOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.array.SpiralOrder" />
       <module name="algs4" />
@@ -147,19 +147,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Pow" />
       <item itemvalue="Application.KthGrammar" />
       <item itemvalue="Application.PivotIndexOfArray" />
       <item itemvalue="Application.PlusOne" />
       <item itemvalue="Application.SpiralOrder" />
+      <item itemvalue="Application.AddBinary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.PivotIndexOfArray" />
         <item itemvalue="Application.KthGrammar" />
-        <item itemvalue="Application.Pow" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +229,7 @@
       <workItem from="1578384986944" duration="12301000" />
       <workItem from="1578474479755" duration="2891000" />
       <workItem from="1578633382049" duration="2304000" />
+      <workItem from="1578664101901" duration="4033000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -430,54 +431,58 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578385018802" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578648983901">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578648993844">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578648983901" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1578634416435">
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578648993844" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1578666900614">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578634416435" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1578634416434">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578666900614" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1578666900614">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578634416434" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1578634416434">
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578666900614" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1578666900614">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578634416434" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1578634416435">
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578666900614" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1578666900614">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578634416435" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1578467763050">
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578666900614" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1578666424581">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578467763050" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1578467763050">
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578666424581" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1578666424581">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578467763050" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1578467763050">
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578666424581" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1578666424581">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578467763050" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1578467763050">
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578666424581" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1578666424581">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578467763050" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578666424581" />
     <state x="526" y="199" key="SettingsEditor" timestamp="1578385054760">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1578385054760" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1578648986273">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1578648995488">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578648986273" />
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1578633430905">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578648995488" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1578664107202">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578633430905" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578664107202" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1578667948817">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1578667948817" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -866,6 +871,46 @@
           <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
           <line>34</line>
           <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/AddBinary.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/AddBinary.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/AddBinary.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/AddBinary.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/AddBinary.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/AddBinary.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/AddBinary.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/AddBinary.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java</url>
