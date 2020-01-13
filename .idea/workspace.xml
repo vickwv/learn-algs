@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="add readme.md">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/AddBinary.java" afterDir="false" />
+    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="二进制求和">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,26 +79,13 @@
       <recent name="leetcode.recurision" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddBinary">
+  <component name="RunManager" selected="Application.StrStr">
     <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.string.AddBinary" />
       <module name="algs4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.recurision.KthGrammar" />
-      <module name="algs4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.recurision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,20 +132,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.StrStr" />
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.KthGrammar" />
       <item itemvalue="Application.PivotIndexOfArray" />
       <item itemvalue="Application.PlusOne" />
       <item itemvalue="Application.SpiralOrder" />
       <item itemvalue="Application.AddBinary" />
+      <item itemvalue="Application.StrStr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrStr" />
         <item itemvalue="Application.AddBinary" />
         <item itemvalue="Application.SpiralOrder" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.PivotIndexOfArray" />
-        <item itemvalue="Application.KthGrammar" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +228,9 @@
       <workItem from="1578384986944" duration="12301000" />
       <workItem from="1578474479755" duration="2891000" />
       <workItem from="1578633382049" duration="2304000" />
-      <workItem from="1578664101901" duration="4033000" />
+      <workItem from="1578664101901" duration="4063000" />
+      <workItem from="1578832564183" duration="2068000" />
+      <workItem from="1578916214398" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -385,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578648944178</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="二进制求和">
+      <created>1578668151938</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578668151938</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,61 +432,62 @@
     <MESSAGE value="对角线遍历(迭代反转法)" />
     <MESSAGE value="54. 螺旋矩阵" />
     <MESSAGE value="add readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="add readme.md" />
+    <MESSAGE value="二进制求和" />
+    <option name="LAST_COMMIT_MESSAGE" value="二进制求和" />
   </component>
   <component name="WindowStateProjectService">
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578385018802">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578385018802" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578648993844">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1578916845538">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578648993844" />
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1578666900614">
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1578916845538" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1578916597402">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578666900614" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1578666900614">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578916597402" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1578916597402">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578666900614" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1578666900614">
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578916597402" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1578916597402">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578666900614" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1578666900614">
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578916597402" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1578916597402">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578666900614" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1578666424581">
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578916597402" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1578916578689">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578666424581" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1578666424581">
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1578916578689" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1578916578689">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578666424581" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1578666424581">
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1578916578689" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1578916578689">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578666424581" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1578666424581">
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1578916578689" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1578916578689">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578666424581" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1578916578689" />
     <state x="526" y="199" key="SettingsEditor" timestamp="1578385054760">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1578385054760" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1578648995488">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1578668153550">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578648995488" />
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1578664107202">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1578668153550" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1578916273729">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578664107202" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578916273729" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1578667948817">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -912,6 +921,26 @@
           <line>48</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/StrStr.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/StrStr.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/StrStr.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/string/StrStr.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java</url>
           <line>22</line>
@@ -940,7 +969,9 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="line-1-i" language="JAVA" />
+        <watch expression="hl-i" language="JAVA" />
+        <watch expression="i+nl-1" language="JAVA" />
+        <watch expression="haystack.substring(2,4)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
