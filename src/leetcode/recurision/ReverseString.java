@@ -20,11 +20,27 @@ public class ReverseString {
         }
     }
 
+    /**
+     * 双指针法
+     * @param s
+     */
+    public void reverseStringWithDoublePoint(char[] s) {
+        int i = 0;
+        int j = s.length - 1;
+        while (i < j) {
+            char temp = s[i];
+            s[i] = s[j];
+            s[j] = temp;
+            i++;
+            j--;
+        }
+    }
+
     public static void main(String[] args) {
         String str = "helloworld";
         char[] t = str.toCharArray();
         ReverseString test = new ReverseString();
-        test.reverseString(t);
+        test.reverseStringWithDoublePoint(t);
         StdOut.println(String.valueOf(t));
     }
 }
