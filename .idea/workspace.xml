@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="反转字符串双指针法">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/recurision/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/recurision/ClimbStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,13 +89,13 @@
       <recent name="leetcode.recurision" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeSum">
-    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.MoveZero" />
+  <component name="RunManager" selected="Application.ClimbStairs">
+    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.recurision.ClimbStairs" />
       <module name="algs4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.array.*" />
+          <option name="PATTERN" value="leetcode.recurision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.recurision.ReverseString" />
+    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.MoveZero" />
       <module name="algs4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.recurision.*" />
+          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +151,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseString" />
       <item itemvalue="Application.MoveZero" />
       <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.ThreeSum" />
       <item itemvalue="PHP Script.TwoSum.php" />
+      <item itemvalue="Application.ClimbStairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="PHP Script.TwoSum.php" />
         <item itemvalue="Application.MoveZero" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +249,7 @@
       <workItem from="1582944374641" duration="1434000" />
       <workItem from="1582948542982" duration="11939000" />
       <workItem from="1583024953823" duration="6722000" />
+      <workItem from="1583054191480" duration="6462000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -441,7 +440,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582764612058</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="ThreeSum">
+      <created>1583054336159</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1583054336159</updated>
+    </task>
+    <task id="LOCAL-00029" summary="用队列实现栈">
+      <created>1583059075703</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1583059075703</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="使用优先队列的多向归并" />
     <MESSAGE value="快速排序" />
     <MESSAGE value="三向切分快排" />
     <MESSAGE value="快排" />
@@ -485,7 +497,9 @@
     <MESSAGE value="14.Longest Common Prefix" />
     <MESSAGE value="反转字符串双指针法" />
     <MESSAGE value="Two-Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two-Sum" />
+    <MESSAGE value="ThreeSum" />
+    <MESSAGE value="用队列实现栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="用队列实现栈" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="211" key="#CLI_Interpreters" timestamp="1582765013927">
@@ -512,46 +526,46 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1582963888236" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1582764611334">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1583059075027">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1582764611334" />
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1583059075027" />
     <state x="1316" y="312" key="FileChooserDialogImpl" timestamp="1582978156417">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1316" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1582978156417" />
-    <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1583051119793">
+    <state width="2005" height="302" key="GridCell.Tab.0.bottom" timestamp="1583066344727">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119793" />
-    <state width="2005" height="376" key="GridCell.Tab.0.center" timestamp="1583051119793">
+    <state width="2005" height="302" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583066344727" />
+    <state width="2005" height="302" key="GridCell.Tab.0.center" timestamp="1583066344727">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119793" />
-    <state width="2005" height="376" key="GridCell.Tab.0.left" timestamp="1583051119793">
+    <state width="2005" height="302" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583066344727" />
+    <state width="2005" height="302" key="GridCell.Tab.0.left" timestamp="1583066344727">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119793" />
-    <state width="2005" height="376" key="GridCell.Tab.0.right" timestamp="1583051119793">
+    <state width="2005" height="302" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583066344727" />
+    <state width="2005" height="302" key="GridCell.Tab.0.right" timestamp="1583066344727">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119793" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1583051119794">
+    <state width="2005" height="302" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583066344727" />
+    <state width="1002" height="376" key="GridCell.Tab.1.bottom" timestamp="1583056489994">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119794" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1583051119794">
+    <state width="1002" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583056489994" />
+    <state width="1002" height="376" key="GridCell.Tab.1.center" timestamp="1583056489993">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119794" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1583051119794">
+    <state width="1002" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583056489993" />
+    <state width="1002" height="376" key="GridCell.Tab.1.left" timestamp="1583056489993">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119794" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1583051119794">
+    <state width="1002" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583056489993" />
+    <state width="1002" height="376" key="GridCell.Tab.1.right" timestamp="1583056489994">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119794" />
+    <state width="1002" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583056489994" />
     <state x="758" y="369" key="NewPhpClassDialog" timestamp="1582723353433">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -564,10 +578,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582948624318" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1582764613156">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1583059077014">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1582764613156" />
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1583059077014" />
     <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583054191373">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -584,10 +598,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="915" y="286" key="ftp.server.browser/0.0.2048.1112@0.0.2048.1112" timestamp="1582723736513" />
-    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1582632225904">
+    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1583057893736">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1582632225904" />
+    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1583057893736" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

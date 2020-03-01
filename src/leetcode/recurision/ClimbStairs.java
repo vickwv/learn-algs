@@ -10,43 +10,61 @@ import java.util.HashMap;
  *
  * 注意：给定 n 是一个正整数
  *
+ * 懵逼的时候：
+ * 暴力？ 基本情况？
+ * 泛化：找最近重复的子问题
+ * 因为算法只能 if else， for while, recursion，CPU只会干重复的事
  *
+ *  1: 1
+ *  2: 2
+ *  3: f(1) + f(2) 第三级的走法，要么从第一级跨两步，要么从第二级跨一步。所以第三级等于 第一级的走法+第二级的走法
+ *  4: 以上类推
+ *
+ *  solution1: 循环迭代法+HashMap记录前面的走法。O(N)
+ *  solution2: 递归+HashMap记录前面的走法。速度较迭代法慢很多
+ *  solution3: 纯粹迭代法
  */
 public class ClimbStairs {
-    HashMap<Integer, Integer> hashMap = new HashMap<>();
-    public int climbStairs(int n)
-    {
-        if (hashMap.containsKey(n)) {
-            return hashMap.get(n);
-        }
-        int result;
-        if (n <= 2) {
-            result = n;
-        } else {
-            result = climbStairs(n-1) + climbStairs(n-2);
-        }
+    HashMap<Integer, Integer> map = new HashMap<>();
 
-        hashMap.put(n, result);
+    public int Solution1(int n) {
+        if (n <= 2) {
+            return n;
+        }
+        map.put(0, 1);
+        map.put(1, 2);
+        for (int i = 2; i < n; i++) {
+            map.put(i, map.get(i-1) + map.get(i-2));
+        }
+        return map.get(n-1);
+    }
+
+    public int Solution2(int n) {
+        if (n <= 2) {
+            return n;
+        }
+        if (map.containsKey(n)) {
+            return map.get(n);
+        }
+        int result = Solution2(n-1) + Solution2(n-2);
+        map.put(n, result);
         return result;
     }
 
-    /**
-     * 暴力破解法
-     * @param i int 当前阶梯
-     * @param n int 目标阶梯
-     * @return
-     */
-    public int climbStairs(int i, int n)
-    {
-        if (i > n) {
-            return 0;
-        }
 
-        if (i == n) {
-            return 1;
+    public int Solution3(int n) {
+        if (n <= 2) {
+            return n;
         }
-
-        return climbStairs(i+1, n) + climbStairs(i+2, n);
+        int one_step_before = 2; // f(n-1)
+        int two_step_before = 1; // f(n-2)
+        int result = 0;
+        for (int i = 2; i < n; i++) {
+            result = one_step_before + two_step_before;
+            two_step_before = one_step_before;
+            one_step_before = result;
+        }
+        return result;
     }
 
     /**
@@ -90,6 +108,6 @@ public class ClimbStairs {
     public static void main(String[] args)
     {
         ClimbStairs climbStairs = new ClimbStairs();
-        System.out.println(climbStairs.climbStairs(4));
+        System.out.println(climbStairs.Solution3(4));
     }
 }
