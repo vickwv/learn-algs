@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="反转字符串双指针法">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/TwoSum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/recurision/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/recurision/ClimbStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go File" />
         <option value="Class" />
       </list>
     </option>
@@ -34,6 +35,7 @@
       <find>resize</find>
     </findStrings>
   </component>
+  <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -49,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -56,9 +59,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561109710129" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcode/array" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/di" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,7 +78,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -84,20 +91,7 @@
       <recent name="leetcode.recurision" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.string.LongestCommonPrefix" />
-      <module name="algs4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreeSum">
     <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.array.MoveZero" />
       <module name="algs4" />
@@ -117,6 +111,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.recurision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.ThreeSum" />
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +153,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestCommonPrefix" />
       <item itemvalue="Application.ReverseString" />
       <item itemvalue="Application.MoveZero" />
-      <item itemvalue="PHP Script.TwoSum.php" />
       <item itemvalue="Application.TwoSum" />
+      <item itemvalue="Application.ThreeSum" />
+      <item itemvalue="PHP Script.TwoSum.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="PHP Script.TwoSum.php" />
         <item itemvalue="Application.MoveZero" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.LongestCommonPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +247,10 @@
       <workItem from="1582530596844" duration="659000" />
       <workItem from="1582536624463" duration="2422000" />
       <workItem from="1582547660375" duration="17594000" />
-      <workItem from="1582719306956" duration="6455000" />
+      <workItem from="1582719306956" duration="8710000" />
+      <workItem from="1582944374641" duration="1434000" />
+      <workItem from="1582948542982" duration="11939000" />
+      <workItem from="1583024953823" duration="6722000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -424,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579428254714</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Two-Sum">
+      <created>1582764612058</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1582764612058</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,13 +484,18 @@
     <MESSAGE value="Implement StrStr" />
     <MESSAGE value="14.Longest Common Prefix" />
     <MESSAGE value="反转字符串双指针法" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转字符串双指针法" />
+    <MESSAGE value="Two-Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two-Sum" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="211" key="#CLI_Interpreters" timestamp="1582723662841">
+    <state x="605" y="211" key="#CLI_Interpreters" timestamp="1582765013927">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="605" y="211" key="#CLI_Interpreters/0.0.2048.1112@0.0.2048.1112" timestamp="1582723662841" />
+    <state x="605" y="211" key="#CLI_Interpreters/0.0.2048.1112@0.0.2048.1112" timestamp="1582765013927" />
+    <state x="617" y="215" key="#GOPATH" timestamp="1582948653452">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="215" key="#GOPATH/0.0.2048.1112@0.0.2048.1112" timestamp="1582948653452" />
     <state x="708" y="144" key="#PHP" timestamp="1582723750405">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -486,46 +508,50 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578385018802" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1582719327572">
+    <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1582963888236">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1582719327572" />
-    <state x="1316" y="312" key="FileChooserDialogImpl" timestamp="1582723710699">
+    <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1582963888236" />
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1582764611334">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1316" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1582723710699" />
-    <state width="2005" height="302" key="GridCell.Tab.0.bottom" timestamp="1582724964259">
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1582764611334" />
+    <state x="1316" y="312" key="FileChooserDialogImpl" timestamp="1582978156417">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1582724964259" />
-    <state width="2005" height="302" key="GridCell.Tab.0.center" timestamp="1582724964259">
+    <state x="1316" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1582978156417" />
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1583051119793">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1582724964259" />
-    <state width="2005" height="302" key="GridCell.Tab.0.left" timestamp="1582724964259">
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119793" />
+    <state width="2005" height="376" key="GridCell.Tab.0.center" timestamp="1583051119793">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1582724964259" />
-    <state width="2005" height="302" key="GridCell.Tab.0.right" timestamp="1582724964259">
+    <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119793" />
+    <state width="2005" height="376" key="GridCell.Tab.0.left" timestamp="1583051119793">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1582724964259" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1582724953266">
+    <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119793" />
+    <state width="2005" height="376" key="GridCell.Tab.0.right" timestamp="1583051119793">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1582724953266" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1582724953266">
+    <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119793" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1583051119794">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1582724953266" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1582724953266">
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119794" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1583051119794">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1582724953266" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1582724953266">
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119794" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1583051119794">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1582724953266" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119794" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1583051119794">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583051119794" />
     <state x="758" y="369" key="NewPhpClassDialog" timestamp="1582723353433">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -534,18 +560,18 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="855" y="479" key="NewPhpFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1582723359381" />
-    <state x="526" y="199" key="SettingsEditor" timestamp="1582547650150">
+    <state x="526" y="199" key="SettingsEditor" timestamp="1582948624318">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582547650150" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1582715774978">
+    <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582948624318" />
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1582764613156">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1582715774978" />
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1582719320023">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1582764613156" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583054191373">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1582719320023" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583054191373" />
     <state x="1330" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579430220236">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -1161,91 +1187,5 @@
         <watch expression="haystack.substring(2,4)" language="JAVA" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Bundled Protobuf Distribution</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11.0.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>algs4</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

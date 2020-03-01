@@ -7,7 +7,7 @@ import java.util.HashMap;
 /**
  * solution1：暴力双层循环，O(N^2)
  * solution2: HashMap 一层HashMap
- * solution3: HashMap 两层 HashMap
+ * solution3: HashMap 两次循环法
  */
 public class TwoSum {
     public int[] solution1(int[] nums, int target) {
@@ -24,7 +24,7 @@ public class TwoSum {
     public int[] solution2(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            int complement = target - nums[i];
+            int complement = target-nums[i];
             if (map.containsKey(complement)) {
                 return new int[]{map.get(complement), i};
             }
