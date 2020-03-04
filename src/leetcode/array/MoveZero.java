@@ -12,7 +12,7 @@ public class MoveZero {
         int j = 0; // j for non-zero values
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
-                nums[j++] = nums[i];
+                nums[j] = nums[i];
                 if (i != j) { // if i is not equal to j, Description to move a zero value backward
                     nums[i] = 0;
                 }
