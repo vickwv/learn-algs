@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="反转字符串双指针法">
+    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/SortMergeLcci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/recurision/ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/recurision/ClimbStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/stack/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/stack/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:stevenvww/algs4.git" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Remote PHP 7.2" />
   <component name="ProjectId" id="1OjcUPkLrygYb9gmTYpV5Ils5CF" />
@@ -89,7 +99,7 @@
       <recent name="leetcode.recurision" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClimbStairs">
+  <component name="RunManager" selected="Application.SortMergeLcci">
     <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.recurision.ClimbStairs" />
       <module name="algs4" />
@@ -103,8 +113,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.MoveZero" />
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.stack.MyStack" />
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortMergeLcci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.SortMergeLcci" />
       <module name="algs4" />
       <extension name="coverage">
         <pattern>
@@ -142,28 +165,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/leetcode/array/TwoSum.php">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="Remote PHP 7.2" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Application.MoveZero" />
       <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.ThreeSum" />
-      <item itemvalue="PHP Script.TwoSum.php" />
       <item itemvalue="Application.ClimbStairs" />
+      <item itemvalue="Application.MyStack" />
+      <item itemvalue="Application.SortMergeLcci" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClimbStairs" />
+        <item itemvalue="Application.SortMergeLcci" />
+        <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.ClimbStairs" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="PHP Script.TwoSum.php" />
-        <item itemvalue="Application.MoveZero" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +264,8 @@
       <workItem from="1582944374641" duration="1434000" />
       <workItem from="1582948542982" duration="11939000" />
       <workItem from="1583024953823" duration="6722000" />
-      <workItem from="1583054191480" duration="6462000" />
+      <workItem from="1583054191480" duration="14962000" />
+      <workItem from="1583147171232" duration="17526000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -454,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583059075703</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="爬楼梯">
+      <created>1583066379552</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1583066379552</updated>
+    </task>
+    <task id="LOCAL-00031" summary="反转单链表">
+      <created>1583154173408</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1583154173408</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="快速排序" />
     <MESSAGE value="三向切分快排" />
     <MESSAGE value="快排" />
     <MESSAGE value="堆排序" />
@@ -485,7 +514,6 @@
     <MESSAGE value="leetcode 两两交换相邻的节点" />
     <MESSAGE value="杨辉三角" />
     <MESSAGE value="杨辉三角2" />
-    <MESSAGE value="反转单链表" />
     <MESSAGE value="第K个语法符号" />
     <MESSAGE value="寻找数组的中心索引解答" />
     <MESSAGE value="对角线遍历 暴力遍历法" />
@@ -499,7 +527,9 @@
     <MESSAGE value="Two-Sum" />
     <MESSAGE value="ThreeSum" />
     <MESSAGE value="用队列实现栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="用队列实现栈" />
+    <MESSAGE value="爬楼梯" />
+    <MESSAGE value="反转单链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="反转单链表" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="211" key="#CLI_Interpreters" timestamp="1582765013927">
@@ -522,70 +552,70 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578385018802" />
-    <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1582963888236">
+    <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583242713089">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1582963888236" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1583059075027">
+    <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583242713089" />
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1583286972964">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1583059075027" />
-    <state x="1316" y="312" key="FileChooserDialogImpl" timestamp="1582978156417">
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1583286972964" />
+    <state x="1316" y="312" key="FileChooserDialogImpl" timestamp="1583227404137">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1316" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1582978156417" />
-    <state width="2005" height="302" key="GridCell.Tab.0.bottom" timestamp="1583066344727">
+    <state x="1316" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1583227404137" />
+    <state width="2005" height="302" key="GridCell.Tab.0.bottom" timestamp="1583244285461">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583066344727" />
-    <state width="2005" height="302" key="GridCell.Tab.0.center" timestamp="1583066344727">
+    <state width="2005" height="302" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583244285461" />
+    <state width="2005" height="302" key="GridCell.Tab.0.center" timestamp="1583244285461">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583066344727" />
-    <state width="2005" height="302" key="GridCell.Tab.0.left" timestamp="1583066344727">
+    <state width="2005" height="302" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583244285461" />
+    <state width="2005" height="302" key="GridCell.Tab.0.left" timestamp="1583244285461">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583066344727" />
-    <state width="2005" height="302" key="GridCell.Tab.0.right" timestamp="1583066344727">
+    <state width="2005" height="302" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583244285461" />
+    <state width="2005" height="302" key="GridCell.Tab.0.right" timestamp="1583244285461">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583066344727" />
-    <state width="1002" height="376" key="GridCell.Tab.1.bottom" timestamp="1583056489994">
+    <state width="2005" height="302" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583244285461" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1583243967631">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583056489994" />
-    <state width="1002" height="376" key="GridCell.Tab.1.center" timestamp="1583056489993">
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583243967631" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1583243967631">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583056489993" />
-    <state width="1002" height="376" key="GridCell.Tab.1.left" timestamp="1583056489993">
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583243967631" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1583243967631">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583056489993" />
-    <state width="1002" height="376" key="GridCell.Tab.1.right" timestamp="1583056489994">
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583243967631" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1583243967631">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583056489994" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583243967631" />
     <state x="758" y="369" key="NewPhpClassDialog" timestamp="1582723353433">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="758" y="369" key="NewPhpClassDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1582723353433" />
-    <state x="855" y="479" key="NewPhpFileDialog" timestamp="1582723359381">
+    <state x="855" y="479" key="NewPhpFileDialog" timestamp="1583114127725">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="855" y="479" key="NewPhpFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1582723359381" />
+    <state x="855" y="479" key="NewPhpFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583114127725" />
     <state x="526" y="199" key="SettingsEditor" timestamp="1582948624318">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582948624318" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1583059077014">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1583154174745">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1583059077014" />
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583054191373">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1583154174745" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583147338499">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583054191373" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583147338499" />
     <state x="1330" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579430220236">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -598,6 +628,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="915" y="286" key="ftp.server.browser/0.0.2048.1112@0.0.2048.1112" timestamp="1582723736513" />
+    <state x="465" y="177" key="new project wizard" timestamp="1583227411908">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="465" y="177" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1583227411908" />
     <state x="687" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1583057893736">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -778,22 +812,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java</url>
-          <line>62</line>
+          <line>77</line>
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java</url>
-          <line>64</line>
+          <line>79</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java</url>
-          <line>65</line>
+          <line>80</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1085,13 +1114,15 @@
           <line>46</line>
           <option name="timeStamp" value="182" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/leetcode/recurision/SwapPairs.java</url>
-          <line>22</line>
-          <properties class="leetcode.recurision.SwapPairs" method="swapPairs">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="73" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/SortMergeLcci.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/SortMergeLcci.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="197" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/KthGrammar.java</url>
