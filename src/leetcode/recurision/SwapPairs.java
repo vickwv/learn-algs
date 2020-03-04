@@ -1,7 +1,6 @@
 package leetcode.recurision;
 
 import edu.princeton.cs.algs4.StdOut;
-
 /**
  * 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。(必须交换结点，而不是交换内部的值)
  * 示例：
@@ -16,33 +15,49 @@ public class SwapPairs {
         ListNode(int v) { val = v; }
     }
 
-    public SwapPairs() {
-        first = null;
-    }
+    /**
+     * 迭代法
+     * 1. 新增一个prev节点，作为前驱节点，指向head
+     * 2. 交换奇偶两个节点
+     * 3. Prev指向交换过后的head
+     * @param head
+     * @return
+     */
+    public ListNode Solution1(ListNode head) {
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        ListNode prevNode = dummy; // prev节点作为前驱节点，用于两两交换
+        while (head != null && head.next != null) {
+            ListNode firstNode = head;
+            ListNode secondNode = head.next;
+            prevNode.next = secondNode;
+            firstNode.next = secondNode.next;
+            secondNode.next = firstNode;
 
-    public ListNode swapPairs(ListNode head) {
-        if (head == null || head.next == null)
-            return head;
-        ListNode p1 = head, p2 = head.next, p3 = p2.next;
-        p1.next = p3;
-        p2.next = p1;
-
-        if (p3 != null) {
-            p1.next = swapPairs(p3);
+            prevNode = firstNode;
+            head = firstNode.next;
         }
-        return p2;
+        return dummy.next;
     }
 
-    public ListNode swapPairs2(ListNode head) {
+    /**
+     * 递归法
+     * @param head ListNode
+     */
+    public ListNode Solution2(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode next = head.next;
-        head.next = swapPairs(next.next); // node1 要指向下两个结点交换后的头结点，递归获取
-        next.next = head; // 假设 head为node1, next = head.next 为node2，这里是 node2->node1，交换结点
-        return next;
-    }
 
+        ListNode firstNode = head;
+        ListNode secondNode = head.next;
+
+        // firstNode.next 要先交换下两个节点。也就是每次递归都交换两个节点
+        firstNode.next = Solution2(secondNode.next);
+        secondNode.next = firstNode;
+        // 交换成功后 secondNode 就是新的head
+        return secondNode;
+    }
 
     public void add(int v) {
         ListNode temp = new ListNode(v);
@@ -62,7 +77,7 @@ public class SwapPairs {
         for (int i = 4; i >= 1; i--) {
             swapPairs.add(i);
         }
-        swapPairs.swapPairs(swapPairs.first);
+        swapPairs.Solution1(swapPairs.first);
         swapPairs.printNode();
     }
 }
