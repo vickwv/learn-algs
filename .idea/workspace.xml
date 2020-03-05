@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/LinkedListCycleII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +15,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -261,7 +277,10 @@
       <workItem from="1582948542982" duration="11939000" />
       <workItem from="1583024953823" duration="6722000" />
       <workItem from="1583054191480" duration="14962000" />
-      <workItem from="1583147171232" duration="19875000" />
+      <workItem from="1583147171232" duration="21258000" />
+      <workItem from="1583323008411" duration="867000" />
+      <workItem from="1583325850060" duration="1648000" />
+      <workItem from="1583376344722" duration="2649000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -494,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583287481870</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="fix bug">
+      <created>1583289664042</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1583289664042</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="堆排序" />
     <MESSAGE value="顺序查询(基于无序链表)" />
     <MESSAGE value="BST" />
     <MESSAGE value="红黑树" />
@@ -539,7 +564,8 @@
     <MESSAGE value="反转单链表" />
     <MESSAGE value="合并两个排序的数组" />
     <MESSAGE value="代码优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码优化" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="211" key="#CLI_Interpreters" timestamp="1582765013927">
@@ -566,10 +592,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583242713089" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1583287481313">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1583289663497">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1583287481313" />
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1583289663497" />
     <state x="177" y="94" key="DiffContextDialog" timestamp="1583287466480">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -578,38 +604,38 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1316" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1583227404137" />
-    <state width="2005" height="302" key="GridCell.Tab.0.bottom" timestamp="1583244285461">
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1583304061086">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583244285461" />
-    <state width="2005" height="302" key="GridCell.Tab.0.center" timestamp="1583244285461">
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583304061086" />
+    <state width="2005" height="376" key="GridCell.Tab.0.center" timestamp="1583304061086">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583244285461" />
-    <state width="2005" height="302" key="GridCell.Tab.0.left" timestamp="1583244285461">
+    <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583304061086" />
+    <state width="2005" height="376" key="GridCell.Tab.0.left" timestamp="1583304061086">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583244285461" />
-    <state width="2005" height="302" key="GridCell.Tab.0.right" timestamp="1583244285461">
+    <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583304061086" />
+    <state width="2005" height="376" key="GridCell.Tab.0.right" timestamp="1583304061086">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="302" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583244285461" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1583243967631">
+    <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583304061086" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1583304061087">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583243967631" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1583243967631">
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1583304061087" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1583304061086">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583243967631" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1583243967631">
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1583304061086" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1583304061086">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583243967631" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1583243967631">
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1583304061086" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1583304061086">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583243967631" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1583304061086" />
     <state x="758" y="369" key="NewPhpClassDialog" timestamp="1582723353433">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -622,14 +648,14 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582948624318" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1583287483346">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1583289665235">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1583287483346" />
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583147338499">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1583289665235" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583376346030">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583147338499" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583376346030" />
     <state x="1330" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579430220236">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -646,10 +672,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="465" y="177" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1583227411908" />
-    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1583289249476">
+    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1583326109380">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1583289249476" />
+    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1583326109380" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1098,10 +1124,6 @@
           <url>file://$PROJECT_DIR$/src/leetcode/string/LongestCommonPrefix.java</url>
           <line>35</line>
           <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[70]爬楼梯.java</url>
-          <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/array/TwoSum.java</url>
