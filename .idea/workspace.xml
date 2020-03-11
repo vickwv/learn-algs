@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/array/rotate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -283,7 +283,7 @@
       <workItem from="1583589287305" duration="7894000" />
       <workItem from="1583732708909" duration="96000" />
       <workItem from="1583732814935" duration="4727000" />
-      <workItem from="1583833228731" duration="808000" />
+      <workItem from="1583833228731" duration="6247000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -537,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583594511203</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="删除排序数组中的重复项">
+      <created>1583834496663</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1583834496663</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +564,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="红黑树" />
     <MESSAGE value="散列表" />
     <MESSAGE value="leetcode 两两交换相邻的节点" />
     <MESSAGE value="杨辉三角" />
@@ -582,7 +588,8 @@
     <MESSAGE value="fix bug" />
     <MESSAGE value="环形链表" />
     <MESSAGE value="K 个一组翻转链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="K 个一组翻转链表" />
+    <MESSAGE value="删除排序数组中的重复项" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除排序数组中的重复项" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="211" key="#CLI_Interpreters" timestamp="1582765013927">
@@ -613,10 +620,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583242713089" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1583594510411">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1583834495855">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1583594510411" />
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1583834495855" />
     <state x="177" y="94" key="DiffContextDialog" timestamp="1583287466480">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -669,10 +676,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582948624318" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1583594512684">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1583834497856">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1583594512684" />
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1583834497856" />
     <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1583833228512">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -693,10 +700,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="465" y="177" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1583227411908" />
-    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1583732822984">
+    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1583912507460">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1583732822984" />
+    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1583912507460" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
