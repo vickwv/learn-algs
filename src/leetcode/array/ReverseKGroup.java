@@ -14,21 +14,23 @@ public class ReverseKGroup {
         }
     }
 
-
-    public ListNode reverseKGroup(ListNode head, int k) {
+    public ListNode solution1(ListNode head, int k) {
         if (head == null) return null;
         ListNode a = head, b = head;
+        // 判断是否够k个值，不足k个不需要反转
         for (int i = 0; i < k; i++) {
-            if (b == null) return head; // 不足k个不需要反转
+            if (b == null) return head;
             b = b.next;
         }
         ListNode newHead = reverse(a, b); //这里反转完成后, 就可以继续反转a后面的k个元素
-        a.next = reverseKGroup(b, k);
+        // 反转完成后,a已经到尾部了。
+        a.next = solution1(b, k);
         return newHead;
     }
 
+    // 哨兵法反转链表
     public ListNode reverse(ListNode start, ListNode end) {
-        ListNode  curr = start, nxt;
+        ListNode curr = start, nxt;
         ListNode prev = null;
         while (curr != end) {
             nxt = curr.next;
