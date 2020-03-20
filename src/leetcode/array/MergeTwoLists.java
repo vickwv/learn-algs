@@ -1,5 +1,8 @@
 package leetcode.array;
 
+/**
+ * 合并两个有序链表
+ */
 public class MergeTwoLists {
     private static class ListNode {
         private int val;

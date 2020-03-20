@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/stack/MinStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/Rotate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +104,7 @@
       <recent name="leetcode.recurision" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PlusOne">
+  <component name="RunManager" selected="Application.Rotate">
     <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter2.example.Merge" />
       <module name="algs4" />
@@ -156,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMergeLcci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.SortMergeLcci" />
+    <configuration name="Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.Rotate" />
       <module name="algs4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.stack.*" />
+          <option name="PATTERN" value="leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SortMergeLcci" />
       <item itemvalue="Application.Merge" />
       <item itemvalue="Application.RemoveDuplicates" />
       <item itemvalue="Application.MergeTwoLists" />
       <item itemvalue="Application.PlusOne" />
+      <item itemvalue="Application.Rotate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rotate" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.MergeTwoLists" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.SortMergeLcci" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +284,8 @@
       <workItem from="1584454095746" duration="780000" />
       <workItem from="1584513097958" duration="3848000" />
       <workItem from="1584602811101" duration="315000" />
-      <workItem from="1584605298099" duration="2235000" />
+      <workItem from="1584605298099" duration="2847000" />
+      <workItem from="1584702788119" duration="2358000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -572,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584605347083</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="最小栈">
+      <created>1584619296077</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1584619296077</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,7 +601,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第K个语法符号" />
     <MESSAGE value="寻找数组的中心索引解答" />
     <MESSAGE value="对角线遍历 暴力遍历法" />
     <MESSAGE value="对角线遍历(迭代反转法)" />
@@ -617,7 +625,8 @@
     <MESSAGE value="合并两个有序链表" />
     <MESSAGE value="K个一组反转链表" />
     <MESSAGE value="有效的括号" />
-    <option name="LAST_COMMIT_MESSAGE" value="有效的括号" />
+    <MESSAGE value="最小栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="最小栈" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="211" key="#CLI_Interpreters" timestamp="1582765013927">
@@ -648,10 +657,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583242713089" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1584605346300">
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1584619295491">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1584605346300" />
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1584619295491" />
     <state x="177" y="94" width="1638" height="917" key="DiffContextDialog" timestamp="1583925296594">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -660,38 +669,38 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="1316" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1584018142565" />
-    <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1584276340483">
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1584703831509">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1584276340483" />
-    <state width="2005" height="376" key="GridCell.Tab.0.center" timestamp="1584276340483">
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1584703831509" />
+    <state width="2005" height="376" key="GridCell.Tab.0.center" timestamp="1584703831509">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1584276340483" />
-    <state width="2005" height="376" key="GridCell.Tab.0.left" timestamp="1584276340483">
+    <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1584703831509" />
+    <state width="2005" height="376" key="GridCell.Tab.0.left" timestamp="1584703831509">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1584276340483" />
-    <state width="2005" height="376" key="GridCell.Tab.0.right" timestamp="1584276340483">
+    <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1584703831509" />
+    <state width="2005" height="376" key="GridCell.Tab.0.right" timestamp="1584703831509">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1584276340483" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1584276340735">
+    <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1584703831509" />
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1584703831632">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1584276340735" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1584276340735">
+    <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1584703831632" />
+    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1584703831632">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1584276340735" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1584276340735">
+    <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1584703831632" />
+    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1584703831632">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1584276340735" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1584276340735">
+    <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1584703831632" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1584703831632">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1584276340735" />
+    <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1584703831632" />
     <state x="758" y="369" key="NewPhpClassDialog" timestamp="1582723353433">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -704,14 +713,14 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582948624318" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1584605348647">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1584619297522">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1584605348647" />
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584605300239">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1584619297522" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584702788115">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1584605300239" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1584702788115" />
     <state x="1330" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579430220236">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -1247,8 +1256,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/array/MergeTwoLists.java</url>
-          <line>31</line>
+          <line>34</line>
           <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Rotate.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Rotate.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Rotate.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Rotate.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Rotate.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/array/Rotate.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="211" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/KthGrammar.java</url>
