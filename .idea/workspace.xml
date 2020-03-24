@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/queue/MyCircularDeque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -609,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585051973260</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="最大滑动窗口迁移到queue">
+      <created>1585052376606</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1585052376606</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add readme.md" />
     <MESSAGE value="二进制求和" />
     <MESSAGE value="Implement StrStr" />
     <MESSAGE value="14.Longest Common Prefix" />
@@ -654,7 +661,8 @@
     <MESSAGE value="柱状图中最大的矩形" />
     <MESSAGE value="fix" />
     <MESSAGE value="最大滑动窗口注释修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="最大滑动窗口注释修改" />
+    <MESSAGE value="最大滑动窗口迁移到queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="最大滑动窗口迁移到queue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="211" key="#CLI_Interpreters" timestamp="1582765013927">
@@ -694,10 +702,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583242713089" />
-    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1585051972582">
+    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1585052375817">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1585051972582" />
+    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1585052375817" />
     <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1584796579939" />
     <state x="133" y="70" width="1638" height="917" key="DiffContextDialog" timestamp="1585050005137">
       <screen x="0" y="0" width="1536" height="832" />
@@ -709,45 +717,45 @@
     </state>
     <state x="987" y="230" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1585049883682" />
     <state x="1316" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1584754476010" />
-    <state width="1483" height="250" key="GridCell.Tab.0.bottom" timestamp="1585052333267">
+    <state width="1483" height="250" key="GridCell.Tab.0.bottom" timestamp="1585052899267">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1483" height="250" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1585052333267" />
+    <state width="1483" height="250" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1585052899267" />
     <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="1483" height="250" key="GridCell.Tab.0.center" timestamp="1585052333267">
+    <state width="1483" height="250" key="GridCell.Tab.0.center" timestamp="1585052899267">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1483" height="250" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1585052333267" />
+    <state width="1483" height="250" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1585052899267" />
     <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="1483" height="250" key="GridCell.Tab.0.left" timestamp="1585052333267">
+    <state width="1483" height="250" key="GridCell.Tab.0.left" timestamp="1585052899267">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1483" height="250" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1585052333267" />
+    <state width="1483" height="250" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1585052899267" />
     <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="1483" height="250" key="GridCell.Tab.0.right" timestamp="1585052333267">
+    <state width="1483" height="250" key="GridCell.Tab.0.right" timestamp="1585052899267">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1483" height="250" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1585052333267" />
+    <state width="1483" height="250" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1585052899267" />
     <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="1483" height="250" key="GridCell.Tab.1.bottom" timestamp="1585052333267">
+    <state width="1483" height="250" key="GridCell.Tab.1.bottom" timestamp="1585052899267">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1483" height="250" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1585052333267" />
+    <state width="1483" height="250" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1585052899267" />
     <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="1483" height="250" key="GridCell.Tab.1.center" timestamp="1585052333267">
+    <state width="1483" height="250" key="GridCell.Tab.1.center" timestamp="1585052899267">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1483" height="250" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1585052333267" />
+    <state width="1483" height="250" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1585052899267" />
     <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="1483" height="250" key="GridCell.Tab.1.left" timestamp="1585052333267">
+    <state width="1483" height="250" key="GridCell.Tab.1.left" timestamp="1585052899267">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1483" height="250" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1585052333267" />
+    <state width="1483" height="250" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1585052899267" />
     <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="1483" height="250" key="GridCell.Tab.1.right" timestamp="1585052333267">
+    <state width="1483" height="250" key="GridCell.Tab.1.right" timestamp="1585052899267">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1483" height="250" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1585052333267" />
+    <state width="1483" height="250" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1585052899267" />
     <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
     <state x="758" y="369" key="NewPhpClassDialog" timestamp="1582723353433">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -762,10 +770,10 @@
     </state>
     <state x="242" y="0" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1585049820740" />
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582948624318" />
-    <state x="463" y="170" key="Vcs.Push.Dialog.v2" timestamp="1585051974620">
+    <state x="463" y="170" key="Vcs.Push.Dialog.v2" timestamp="1585052380597">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="463" y="170" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1585051974620" />
+    <state x="463" y="170" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1585052380597" />
     <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1584796586816" />
     <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584754375608">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -791,9 +799,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="465" y="177" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1584755050451" />
-    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1584880508963">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="515" y="181" width="840" height="508" key="search.everywhere.popup" timestamp="1585052539009">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state x="515" y="181" width="840" height="508" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1585052539009" />
     <state x="687" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1584880508963" />
   </component>
   <component name="XDebuggerManager">
@@ -1340,52 +1349,52 @@
           <option name="timeStamp" value="211" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/queue/MaxSlidingWindows.java</url>
           <line>73</line>
           <option name="timeStamp" value="212" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/queue/MaxSlidingWindows.java</url>
           <line>50</line>
           <option name="timeStamp" value="215" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/queue/MaxSlidingWindows.java</url>
           <line>53</line>
           <option name="timeStamp" value="216" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/queue/MaxSlidingWindows.java</url>
           <line>52</line>
           <option name="timeStamp" value="217" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/queue/MaxSlidingWindows.java</url>
           <line>57</line>
           <option name="timeStamp" value="219" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/queue/MaxSlidingWindows.java</url>
           <line>60</line>
           <option name="timeStamp" value="220" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/queue/MaxSlidingWindows.java</url>
           <line>62</line>
           <option name="timeStamp" value="221" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/queue/MaxSlidingWindows.java</url>
           <line>63</line>
           <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/queue/MaxSlidingWindows.java</url>
           <line>66</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/queue/MaxSlidingWindows.java</url>
           <line>56</line>
           <option name="timeStamp" value="225" />
         </line-breakpoint>
