@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/algs4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jar/algs4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/example/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/example/Bag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/example/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/example/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/example/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/example/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/example/ResizingArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/example/ResizingArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/example/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/example/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/DoublingStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/DoublingStackOfStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex131.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex1310.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex1310.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex132.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex135.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex135.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex139.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex139.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Pareantheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Pareantheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/PeekStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/PeekStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,11 +98,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -664,10 +676,15 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="733" y="243" width="697" height="625" key="#TwoSum.php/0.0.2048.1112@0.0.2048.1112" timestamp="1582723674321" />
-    <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578385018802">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="656" y="334" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585049896642">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state x="656" y="334" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.832@0.0.1536.832" timestamp="1585049896642" />
     <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578385018802" />
+    <state x="0" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1585049892235">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1536.832@0.0.1536.832" timestamp="1585049892235" />
     <state x="1216" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583732781997">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -684,9 +701,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="177" y="94" width="1638" height="917" key="DiffContextDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583925296594" />
-    <state x="1316" y="312" key="FileChooserDialogImpl" timestamp="1584754476010">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="987" y="230" key="FileChooserDialogImpl" timestamp="1585049883682">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state x="987" y="230" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1585049883682" />
     <state x="1316" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1584754476010" />
     <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1584883538306">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -728,9 +746,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="855" y="479" key="NewPhpFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583114127725" />
-    <state x="526" y="199" key="SettingsEditor" timestamp="1582948624318">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="242" y="0" key="SettingsEditor" timestamp="1585049820740">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state x="242" y="0" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1585049820740" />
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582948624318" />
     <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1584796586816">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -1361,7 +1380,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/KthGrammar.java</url>
           <line>81</line>
-          <properties class="leetcode.recurision.KthGrammar" method="main">
+          <properties class="leetcode.recurision.KthGrammar">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="126" />
@@ -1369,7 +1388,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/array/SpiralOrder.java</url>
           <line>53</line>
-          <properties class="leetcode.array.SpiralOrder" method="main">
+          <properties class="leetcode.array.SpiralOrder">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="141" />
@@ -1377,7 +1396,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/array/MoveZero.java</url>
           <line>54</line>
-          <properties class="leetcode.array.MoveZero" method="main">
+          <properties class="leetcode.array.MoveZero">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="157" />
@@ -1385,7 +1404,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/chapter2/example/Merge.java</url>
           <line>117</line>
-          <properties class="chapter2.example.Merge" method="main">
+          <properties class="chapter2.example.Merge">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="198" />
