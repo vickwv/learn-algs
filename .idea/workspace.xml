@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jar/algs4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jar/algs4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/example/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/example/Bag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/example/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/example/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/example/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/example/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/example/ResizingArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/example/ResizingArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/example/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/example/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/DoublingStackOfStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/DoublingStackOfStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex131.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex1310.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex1310.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex132.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex135.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex135.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex139.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Ex139.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Pareantheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/Pareantheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/PeekStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/QueueStackBag/PeekStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -608,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584796580664</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="fix">
+      <created>1585050022541</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1585050022541</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +623,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="对角线遍历(迭代反转法)" />
     <MESSAGE value="54. 螺旋矩阵" />
     <MESSAGE value="add readme.md" />
     <MESSAGE value="二进制求和" />
@@ -653,7 +647,8 @@
     <MESSAGE value="最小栈" />
     <MESSAGE value="opti code" />
     <MESSAGE value="柱状图中最大的矩形" />
-    <option name="LAST_COMMIT_MESSAGE" value="柱状图中最大的矩形" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="211" key="#CLI_Interpreters" timestamp="1582765013927">
@@ -693,50 +688,60 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583242713089" />
-    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1584796579939">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1585050021815">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state x="471" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1585050021815" />
     <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1584796579939" />
-    <state x="177" y="94" width="1638" height="917" key="DiffContextDialog" timestamp="1583925296594">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="133" y="70" width="1638" height="917" key="DiffContextDialog" timestamp="1585050005137">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state x="133" y="70" key="DiffContextDialog/0.0.1536.832@0.0.1536.832" timestamp="1585050005137" />
     <state x="177" y="94" width="1638" height="917" key="DiffContextDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583925296594" />
     <state x="987" y="230" key="FileChooserDialogImpl" timestamp="1585049883682">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="987" y="230" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1585049883682" />
     <state x="1316" y="312" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1584754476010" />
-    <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1584883538306">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1483" height="250" key="GridCell.Tab.0.bottom" timestamp="1585051828619">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state width="1483" height="250" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1585051828619" />
     <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="2005" height="376" key="GridCell.Tab.0.center" timestamp="1584883538306">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1483" height="250" key="GridCell.Tab.0.center" timestamp="1585051828619">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state width="1483" height="250" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1585051828619" />
     <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="2005" height="376" key="GridCell.Tab.0.left" timestamp="1584883538306">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1483" height="250" key="GridCell.Tab.0.left" timestamp="1585051828619">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state width="1483" height="250" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1585051828619" />
     <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="2005" height="376" key="GridCell.Tab.0.right" timestamp="1584883538306">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1483" height="250" key="GridCell.Tab.0.right" timestamp="1585051828619">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state width="1483" height="250" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1585051828619" />
     <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1584883538306">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1483" height="250" key="GridCell.Tab.1.bottom" timestamp="1585051828834">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state width="1483" height="250" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1585051828834" />
     <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1584883538306">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1483" height="250" key="GridCell.Tab.1.center" timestamp="1585051828834">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state width="1483" height="250" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1585051828834" />
     <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1584883538306">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1483" height="250" key="GridCell.Tab.1.left" timestamp="1585051828834">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state width="1483" height="250" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1585051828834" />
     <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1584883538306">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1483" height="250" key="GridCell.Tab.1.right" timestamp="1585051828834">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state width="1483" height="250" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1585051828834" />
     <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1584883538306" />
     <state x="758" y="369" key="NewPhpClassDialog" timestamp="1582723353433">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -751,9 +756,10 @@
     </state>
     <state x="242" y="0" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1585049820740" />
     <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582948624318" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1584796586816">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="463" y="170" key="Vcs.Push.Dialog.v2" timestamp="1585050025247">
+      <screen x="0" y="0" width="1536" height="832" />
     </state>
+    <state x="463" y="170" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1585050025247" />
     <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1584796586816" />
     <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584754375608">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -1349,11 +1355,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="218" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/stack/MaxSlidingWindows.java</url>
           <line>57</line>
           <option name="timeStamp" value="219" />
         </line-breakpoint>
@@ -1380,7 +1381,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/KthGrammar.java</url>
           <line>81</line>
-          <properties class="leetcode.recurision.KthGrammar">
+          <properties class="leetcode.recurision.KthGrammar" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="126" />
@@ -1388,7 +1389,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/array/SpiralOrder.java</url>
           <line>53</line>
-          <properties class="leetcode.array.SpiralOrder">
+          <properties class="leetcode.array.SpiralOrder" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="141" />
@@ -1396,7 +1397,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/array/MoveZero.java</url>
           <line>54</line>
-          <properties class="leetcode.array.MoveZero">
+          <properties class="leetcode.array.MoveZero" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="157" />
@@ -1404,7 +1405,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/chapter2/example/Merge.java</url>
           <line>117</line>
-          <properties class="chapter2.example.Merge">
+          <properties class="chapter2.example.Merge" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="198" />

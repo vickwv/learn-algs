@@ -54,10 +54,10 @@ public class MaxSlidingWindows {
                 q.poll();
             }
             // 队尾的值小于nums[i]，则移除
-            while (!q.isEmpty() && nums[q.peekLast()] < nums[i]) {
-                q.pollLast();
+            while(!q.isEmpty() && nums[q.getLast()] < nums[i]) {
+                q.removeLast();
             }
-            // 说明Nums[i]最大，添加到队首
+            //添加到队尾
             q.offer(i);
             // i >= 2意味着至少遍历了前k个数，并获取了最大值。
             if (i >= k - 1) {
@@ -70,7 +70,7 @@ public class MaxSlidingWindows {
 
     public static void main(String[] args) {
         MaxSlidingWindows test = new MaxSlidingWindows();
-        int[] testArray = new int[]{7, 2, 4};
-        test.Solution2(testArray, 2);
+        int[] testArray = new int[]{1,3,-1,-3,5,3,6,7};
+        test.Solution2(testArray, 3);
     }
 }
