@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/queue/MyCircularDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/queue/MyCircularDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/queue/MyCircularDeque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -685,11 +686,11 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="733" y="243" width="697" height="625" key="#TwoSum.php/0.0.2048.1112@0.0.2048.1112" timestamp="1582723674321" />
-    <state x="656" y="334" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585049896642">
-      <screen x="0" y="0" width="1536" height="832" />
+    <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585141452196">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="656" y="334" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.832@0.0.1536.832" timestamp="1585049896642" />
-    <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1578385018802" />
+    <state x="874" y="446" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1585141452196" />
     <state x="0" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1585049892235">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -1401,7 +1402,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/KthGrammar.java</url>
           <line>81</line>
-          <properties class="leetcode.recurision.KthGrammar" method="main">
+          <properties class="leetcode.recurision.KthGrammar">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="126" />
@@ -1409,7 +1410,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/array/SpiralOrder.java</url>
           <line>53</line>
-          <properties class="leetcode.array.SpiralOrder" method="main">
+          <properties class="leetcode.array.SpiralOrder">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="141" />
@@ -1417,7 +1418,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/array/MoveZero.java</url>
           <line>54</line>
-          <properties class="leetcode.array.MoveZero" method="main">
+          <properties class="leetcode.array.MoveZero">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="157" />
@@ -1425,7 +1426,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/chapter2/example/Merge.java</url>
           <line>117</line>
-          <properties class="chapter2.example.Merge" method="main">
+          <properties class="chapter2.example.Merge">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="198" />
