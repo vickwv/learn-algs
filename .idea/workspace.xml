@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/map/GroupAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/queue/MyCircularDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/queue/MyCircularDeque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -288,6 +287,10 @@
       <workItem from="1584702788119" duration="2983000" />
       <workItem from="1584754370267" duration="1282000" />
       <workItem from="1584789882730" duration="13880000" />
+      <workItem from="1585465768349" duration="1455000" />
+      <workItem from="1585475699822" duration="1871000" />
+      <workItem from="1585573241168" duration="2510000" />
+      <workItem from="1585749034462" duration="1928000" />
     </task>
     <task id="LOCAL-00001" summary="使用优先队列的多向归并">
       <created>1555573899703</created>
@@ -618,7 +621,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585052376606</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="完成循环双端队列">
+      <created>1585146726354</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1585146726354</updated>
+    </task>
+    <task id="LOCAL-00049" summary="有效的字母异位词">
+      <created>1585577123282</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1585577123282</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,8 +655,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二进制求和" />
-    <MESSAGE value="Implement StrStr" />
     <MESSAGE value="14.Longest Common Prefix" />
     <MESSAGE value="反转字符串双指针法" />
     <MESSAGE value="Two-Sum" />
@@ -663,7 +678,9 @@
     <MESSAGE value="fix" />
     <MESSAGE value="最大滑动窗口注释修改" />
     <MESSAGE value="最大滑动窗口迁移到queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="最大滑动窗口迁移到queue" />
+    <MESSAGE value="完成循环双端队列" />
+    <MESSAGE value="有效的字母异位词" />
+    <option name="LAST_COMMIT_MESSAGE" value="有效的字母异位词" />
   </component>
   <component name="WindowStateProjectService">
     <state x="605" y="211" key="#CLI_Interpreters" timestamp="1582765013927">
@@ -695,19 +712,19 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="0" y="0" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1536.832@0.0.1536.832" timestamp="1585049892235" />
-    <state x="1216" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583732781997">
+    <state x="1216" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585574091821">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1216" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583732781997" />
+    <state x="1216" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1585574091821" />
     <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1583242713089">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="755" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583242713089" />
-    <state x="471" y="0" key="CommitChangelistDialog2" timestamp="1585052375817">
-      <screen x="0" y="0" width="1536" height="832" />
+    <state x="628" y="149" key="CommitChangelistDialog2" timestamp="1585750965740">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="471" y="0" key="CommitChangelistDialog2/0.0.1536.832@0.0.1536.832" timestamp="1585052375817" />
-    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1584796579939" />
+    <state x="628" y="149" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1585750965740" />
     <state x="133" y="70" width="1638" height="917" key="DiffContextDialog" timestamp="1585050005137">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -766,24 +783,28 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="855" y="479" key="NewPhpFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1583114127725" />
-    <state x="242" y="0" key="SettingsEditor" timestamp="1585049820740">
-      <screen x="0" y="0" width="1536" height="832" />
+    <state x="526" y="199" key="SettingsEditor" timestamp="1585749593846">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="242" y="0" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1585049820740" />
-    <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1582948624318" />
-    <state x="463" y="170" key="Vcs.Push.Dialog.v2" timestamp="1585052380597">
-      <screen x="0" y="0" width="1536" height="832" />
+    <state x="526" y="199" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1585749593846" />
+    <state x="746" y="298" width="540" height="524" key="StructurePopup" timestamp="1585481147052">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="746" y="298" width="540" height="524" key="StructurePopup/0.0.2048.1112@0.0.2048.1112" timestamp="1585481147052" />
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2" timestamp="1585577124455">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="463" y="170" key="Vcs.Push.Dialog.v2/0.0.1536.832@0.0.1536.832" timestamp="1585052380597" />
-    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1584796586816" />
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584754375608">
+    <state x="617" y="290" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1585577124455" />
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585749213293">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1584754375608" />
-    <state x="1330" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579430220236">
+    <state x="710" y="381" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1585749213293" />
+    <state x="1330" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585749293251">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="1330" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1579430220236" />
+    <state x="1330" y="474" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1585749293251" />
     <state x="766" y="286" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1582723745424">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -800,11 +821,11 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="465" y="177" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1584755050451" />
-    <state x="515" y="181" width="840" height="508" key="search.everywhere.popup" timestamp="1585052539009">
-      <screen x="0" y="0" width="1536" height="832" />
+    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1585573296899">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="515" y="181" width="840" height="508" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1585052539009" />
-    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1584880508963" />
+    <state x="687" y="242" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1585573296899" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1402,7 +1423,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/recurision/KthGrammar.java</url>
           <line>81</line>
-          <properties class="leetcode.recurision.KthGrammar">
+          <properties class="leetcode.recurision.KthGrammar" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="126" />
@@ -1410,7 +1431,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/array/SpiralOrder.java</url>
           <line>53</line>
-          <properties class="leetcode.array.SpiralOrder">
+          <properties class="leetcode.array.SpiralOrder" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="141" />
@@ -1418,7 +1439,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/leetcode/array/MoveZero.java</url>
           <line>54</line>
-          <properties class="leetcode.array.MoveZero">
+          <properties class="leetcode.array.MoveZero" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="157" />
@@ -1426,7 +1447,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/chapter2/example/Merge.java</url>
           <line>117</line>
-          <properties class="chapter2.example.Merge">
+          <properties class="chapter2.example.Merge" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="198" />
