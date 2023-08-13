@@ -15,18 +15,20 @@ public class RemoveDuplicates {
      * @return int
      */
     public int Solution1(int[] nums) {
-        int i = 0;
-        for (int j = 1; j < nums.length; j++) {
-            if (nums[i] != nums[j]) {
-                i++;
-                nums[i] = nums[j];
+        int slow = 0, fast = 1;
+        while(fast < nums.length) {
+            if (nums[slow] != nums[fast]) {
+                slow = slow + 1;
+                nums[slow] = nums[fast];
             }
+            fast++;
         }
-        return i+1;
+        return slow+1;
+
     }
 
     public static void main(String[] args) {
         RemoveDuplicates duplicates = new RemoveDuplicates();
-        duplicates.Solution1(new int[]{1, 2, 2});
+        duplicates.Solution1(new int[]{1, 1, 2});
     }
 }

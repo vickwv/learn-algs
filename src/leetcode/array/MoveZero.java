@@ -21,6 +21,25 @@ public class MoveZero {
         }
     }
 
+
+    /**
+     * 先把非零元素都放到前面来，最后再补0.
+     * @param nums
+     */
+    public void solutions4(int[] nums) {
+        int i = 0; // j for non-zero values
+        for (int j = 0; j < nums.length; j++) {
+            if (nums[j] != 0) {
+                nums[i] = nums[j];
+                i++;
+            }
+        }
+        while (i < nums.length) {
+            nums[i] = 0;
+            i++;
+        }
+    }
+
     public void solution1(int[] nums) {
         int count = 0; // zero element nums
         for (int i = 0; i < nums.length; i++) {
@@ -46,7 +65,7 @@ public class MoveZero {
                 i++;
             }
         }
-        nums = result.clone();
+        nums = result;
         for (int f = 0; f < nums.length; f++) {
             System.out.println(nums[f]);
         }
