@@ -22,13 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="算法：分隔链表">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/RemoveEle.java" afterDir="false" />
+    <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="算法：移除重复元素">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/PasswordValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/MoveZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/MoveZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/RemoveDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/TwoSum.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/recurision/MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/recurision/MaxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/FindDiagonalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/FindDiagonalOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/array/MaxArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/MaxArea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +86,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Remote PHP 7.2" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="1OjcUPkLrygYb9gmTYpV5Ils5CF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -131,13 +133,26 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
+  <component name="RunManager" selected="Application.PasswordValidator">
     <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.array.MoveZero" />
       <module name="algs4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.PasswordValidator" />
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,33 +193,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleJDKDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_foundation.proxy.SimpleJDKDynamicProxy" />
-      <module name="algs4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_foundation.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.PasswordValidator" />
       <item itemvalue="Application.RemoveDuplicates" />
       <item itemvalue="Application.MoveZero" />
       <item itemvalue="Application.RemoveEle" />
-      <item itemvalue="Application.SimpleJDKDynamicProxy" />
       <item itemvalue="Application.SimpleCglibDynamicProxy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PasswordValidator" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.RemoveEle" />
         <item itemvalue="Application.MoveZero" />
         <item itemvalue="Application.SimpleCglibDynamicProxy" />
-        <item itemvalue="Application.SimpleJDKDynamicProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -337,14 +339,22 @@
       <workItem from="1691501261557" duration="1798000" />
       <workItem from="1691548931449" duration="1970000" />
       <workItem from="1691849656752" duration="2031000" />
-      <workItem from="1691908042568" duration="2017000" />
-    </task>
-    <task id="LOCAL-00005" summary="堆排序">
-      <created>1560742843665</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1560742843665</updated>
+      <workItem from="1691908042568" duration="2659000" />
+      <workItem from="1692002257368" duration="1840000" />
+      <workItem from="1692064723431" duration="599000" />
+      <workItem from="1692237630856" duration="3026000" />
+      <workItem from="1692327918398" duration="670000" />
+      <workItem from="1692410510082" duration="3081000" />
+      <workItem from="1692497097942" duration="1644000" />
+      <workItem from="1692586715799" duration="602000" />
+      <workItem from="1692760023905" duration="2330000" />
+      <workItem from="1692934086871" duration="642000" />
+      <workItem from="1693108679267" duration="702000" />
+      <workItem from="1693189399244" duration="599000" />
+      <workItem from="1693276265321" duration="157000" />
+      <workItem from="1693276435262" duration="599000" />
+      <workItem from="1693466371897" duration="2456000" />
+      <workItem from="1693535576908" duration="1239000" />
     </task>
     <task id="LOCAL-00006" summary="堆排序">
       <created>1560749967246</created>
@@ -682,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691286947610</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="算法：移除重复元素">
+      <created>1691927457542</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1691927457542</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +717,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="用队列实现栈" />
     <MESSAGE value="爬楼梯" />
     <MESSAGE value="反转单链表" />
     <MESSAGE value="合并两个排序的数组" />
@@ -725,7 +741,8 @@
     <MESSAGE value="注解demo" />
     <MESSAGE value="Runable" />
     <MESSAGE value="算法：分隔链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法：分隔链表" />
+    <MESSAGE value="算法：移除重复元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法：移除重复元素" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -991,51 +1008,6 @@
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/PlusOne.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/string/AddBinary.java</url>
           <line>29</line>
           <option name="timeStamp" value="142" />
@@ -1099,31 +1071,6 @@
           <url>file://$PROJECT_DIR$/src/leetcode/string/LongestCommonPrefix.java</url>
           <line>35</line>
           <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/TwoSum.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="175" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/TwoSum.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="176" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/TwoSum.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="180" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/TwoSum.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="181" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/array/TwoSum.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/array/SortMergeLcci.java</url>
