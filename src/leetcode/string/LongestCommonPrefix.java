@@ -2,6 +2,8 @@ package leetcode.string;
 
 import edu.princeton.cs.algs4.StdOut;
 
+import java.util.Stack;
+
 public class LongestCommonPrefix {
     /**
      * 暴力循环法
@@ -29,8 +31,8 @@ public class LongestCommonPrefix {
         while (minLength > 0) {
             String subString = minString.substring(0, minLength);
             boolean isLongest = true;
-            for (int j = 0; j < strs.length; j++) {
-                if (strs[j].startsWith(subString) == false) {
+            for (String str : strs) {
+                if (!str.startsWith(subString)) {
                     isLongest = false;
                     break;
                 }
@@ -47,5 +49,30 @@ public class LongestCommonPrefix {
     public static void main(String[] args) {
         LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
         StdOut.println(longestCommonPrefix.longestCommonPrefix(new String[]{"flower","flow","flight"}));
+    }
+
+    public String reverseWords(String s) {
+        s = s.trim();
+        int len = s.length();
+        StringBuilder res = new StringBuilder();
+        Stack<Character> stack = new Stack<>();
+        for(int i = len -1; i >= 0; i--) {
+            if (s.charAt(i) == ' ') {
+                while (! stack.isEmpty()) {
+                    res.append(stack.pop());
+                }
+                if (res.charAt(res.length()-1) != ' ') {
+                    res.append(s.charAt(i));
+                }
+            } else {
+                stack.push(s.charAt(i));
+            }
+
+        }
+        while (! stack.isEmpty()) {
+            res.append(stack.pop());
+        }
+
+        return res.toString();
     }
 }

@@ -20,18 +20,14 @@ public class StrStr {
      * @return int
      */
     public int strStr(String haystack, String needle) {
-        int hl = haystack.length(), nl = needle.length();
-        if (needle.isEmpty()) {
-            return 0;
-        }
-        if (hl < nl) {
-            return -1;
-        }
-        for (int i = 0; hl - i >= nl; i++) {
-            if (haystack.substring(i, i+nl).compareTo(needle) == 0) {
+        int m = haystack.length();
+        int n = needle.length();
+        for (int i = 0; i + n <= m; i++) {
+            if (haystack.substring(i, i+n).compareTo(needle) == 0) {
                 return i;
             }
         }
+
         return -1;
     }
 
