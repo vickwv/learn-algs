@@ -23,11 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4da28958-8cb2-4edf-8d28-2964fc3122f5" name="Default Changelist" comment="算法：移除重复元素">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/LengthOfLongestSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/FindDiagonalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/FindDiagonalOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/MaxArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/MaxArea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vick/Documents/develop/personal/algs4&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vick/Documents/gy/trade_delivery&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -355,6 +353,8 @@
       <workItem from="1693276435262" duration="599000" />
       <workItem from="1693466371897" duration="2456000" />
       <workItem from="1693535576908" duration="1239000" />
+      <workItem from="1694502882375" duration="628000" />
+      <workItem from="1696581196101" duration="2475000" />
     </task>
     <task id="LOCAL-00006" summary="堆排序">
       <created>1560749967246</created>
