@@ -18,7 +18,8 @@ public class ReverseWordsV3 {
                     sArr[left] = windows.pop();
                     left++;
                 }
-                left++;
+
+                left++; // 不处理空格
             } else {
                 windows.push(c);
             }
